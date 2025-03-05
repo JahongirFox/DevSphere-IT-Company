@@ -8,6 +8,9 @@ nav{
     background-color: black;
     height: 10vh;
 }
+.hamburger{
+    display: none;
+}
 .nav-logo>p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,6 +76,24 @@ nav{
   
     .nav-a.open {
       display: flex;
+    }
+  }
+  
+@media (max-width: 600px) {
+    .nav-logo>p{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+        text-shadow: 0px 0px 30px white;
+    }
+    .nav-logo>p>span{
+        color: rgb(0, 98, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
     }
   }
   
