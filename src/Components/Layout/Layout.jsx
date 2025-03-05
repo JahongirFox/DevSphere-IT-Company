@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
+import Home from '../Home/Home';
 
 const Layout = ({ children }) => {
     return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
         {/* Main Content */}
         <main className="">
           {children}
+          <Home/>
         </main>
   
         {/* Footer */}

@@ -1,11 +1,16 @@
-import React from "react";
+import { BrowserRouter as Router, Routes,  } from "react-router-dom";
+// import Home from "./Components/Home/Home";
 import Layout from "./Components/Layout/Layout";
+
 function App() {
   return (
-        <Layout>
-
-
-        </Layout>
+    <Layout>
+      <Router>
+        <Routes>
+          {/* <Route path="/" element={<Home />} /> */}
+        </Routes>
+      </Router>
+    </Layout>
   );
 }
 
