@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+.hamburger{
+    display: none;
+}
+.nav-logo>p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 0px 0px 30px white;
+}
+.nav-logo>p>span{
+    color: rgb(0, 98, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+}
+.nav-a{
+    color: white;
+    font-size: 30px;
+}
+.nav-a>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.nav-a>a:hover{
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+    font-size: 25px;
+    transition: 0.5s;
+    text-shadow: 0px 0px 20px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+.flex-nav>a{
+    text-decoration: none;
+}
+@media (max-width: 1800px) {
+    nav{
+        width: 100%;
+        background-color: black;
+        height: auto;
+    }
+    .hamburger {
+      display: flex;
+      font-size: 30px;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;      
+    }
+  
+    .nav-a {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: black;
+      padding: 15px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .nav-a>a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .nav-a>a:hover{
+        text-decoration: none;
+        color: rgb(0, 115, 255);
+        font-size: 20px;
+        transition: 0.5s;
+        text-shadow: 0px 0px 20px white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+    }
+    .nav-a>p{
+        display: none;
+    }
+    .nav-a.open {
+      display: flex;
+    }
+  }
+  
+@media (max-width: 600px) {
+    nav{
+        width: 100%;
+        background-color: black;
+        height: auto;
+
+    }
+    .nav-logo>p{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+        text-shadow: 0px 0px 30px white;
+    }
+    .nav-logo>p>span{
+        color: rgb(0, 98, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .nav-a>a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        text-decoration: none;
+    }
+  }
+  
