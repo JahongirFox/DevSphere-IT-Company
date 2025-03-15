@@ -998,38 +998,43 @@
     }
 
 }
-/* @media(max-width: 1879px){
+@media(max-width: 1879px){
     .Home{
-        height: 500vh;
+        height: auto;
     }
 }
 @media(max-width: 1530px){
     .Home{
-        height: 600vh;
+        height: auto;
     }
 }
 @media(max-width: 1400px){
     .Home{
-        height: 715vh;
+        height: auto;
     }
 }
 @media(max-width: 790px){
     .Home{
-        height: 615vh;
+        height: auto;
     }
 }
 @media(max-width: 570px){
     .Home{
-        height: 580vh;
+        height: auto;
     }
 }
 @media(max-width: 480px){
     .Home{
-        height: 485vh;
+        height: auto;
     }
 }
 @media(max-width: 390px){
     .Home{
-        height: 465vh;
+        height: auto;
     }
-} */
+}
+@media(max-width: 360px){
+    .Home{
+        height: auto;
+    }
+}
