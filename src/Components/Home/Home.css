@@ -5,7 +5,7 @@
 }
 .Home{
     width: 100%;
-    height: 600vh;
+    height: 430vh;
     background-color: black;
 }
 .Home-h1-p>h1{
@@ -997,4 +997,39 @@
         text-shadow: 0px 0px 50px white;
     }
 
+}
+@media(max-width: 1879px){
+    .Home{
+        height: 500vh;
+    }
+}
+@media(max-width: 1530px){
+    .Home{
+        height: 600vh;
+    }
+}
+@media(max-width: 1400px){
+    .Home{
+        height: 715vh;
+    }
+}
+@media(max-width: 790px){
+    .Home{
+        height: 615vh;
+    }
+}
+@media(max-width: 570px){
+    .Home{
+        height: 580vh;
+    }
+}
+@media(max-width: 480px){
+    .Home{
+        height: 485vh;
+    }
+}
+@media(max-width: 390px){
+    .Home{
+        height: 465vh;
+    }
 }

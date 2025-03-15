@@ -14,7 +14,7 @@ function Navbar() {
         </a>
         <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
         <div className={isOpen ? "nav-a open" : "nav-a"}>
-          <a href="#home">Bosh Sahifa</a>
+          <a href="http://localhost:3000/">Bosh Sahifa</a>
           <p>|</p>
           <a href="#about">Sayt Yaratish</a>
           <p>|</p>
