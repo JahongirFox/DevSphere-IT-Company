@@ -5,7 +5,7 @@
 }
 .Home{
     width: 100%;
-    height: 430vh;
+    height: auto;
     background-color: black;
 }
 .Home-h1-p>h1{
@@ -476,7 +476,7 @@
 @media(max-width: 1400px){
     .Home{
         width: 100%;
-        height: 1100vh;
+        height: auto;
         background-color: black;
     }
     .flex-the-xizmatlar-cards{
@@ -998,7 +998,7 @@
     }
 
 }
-@media(max-width: 1879px){
+/* @media(max-width: 1879px){
     .Home{
         height: 500vh;
     }
@@ -1032,4 +1032,4 @@
     .Home{
         height: 465vh;
     }
-}
+} */
