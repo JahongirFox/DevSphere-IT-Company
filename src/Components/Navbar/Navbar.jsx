@@ -1,37 +1,8 @@
-// import React from "react";
-// import './Navbar.css'
-// import Insta from './insta.png'
-// import Telegram from './telegram.png'
-
-// function Navbar() {
-//     return(
-//         <nav>
-//             <div className="Center-Nav">
-//                 <p>DevSphere</p>
-//                 <div className="Nav-ul-link-center">
-//                     <div className="Nav-ul-link-width">
-//                         <div className="nav-ul-links">
-//                             <ul><link rel="stylesheet" href="" />Home</ul>
-//                             <ul><link rel="stylesheet" href="" />About</ul>
-//                             <ul><link rel="stylesheet" href="" />Works</ul>
-//                             <ul><link rel="stylesheet" href="" />Blogs</ul>
-//                             <ul><link rel="stylesheet" href="" />Contacts</ul>
-//                             <a href="https://www.instagram.com/devsphere.uz/"><img width={"40"} src={Insta} alt="" /></a>
-//                             <a href="https://t.me/JahongirFox"><img width={"40"} src={Telegram} alt="" /></a>
-//                         </div>
-//                     </div>    
-//                 </div>
-//             </div>
-//         </nav>
-//     )
-// }
-
-// export default Navbar
-
 import React, { useState } from "react";
 import "./Navbar.css";
 import Insta from "./insta.png";
 import Telegram from "./telegram.png";
+import Telephone from './telephone.png'
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -56,6 +27,17 @@ function Navbar() {
                             </ul>
                         </div>
                     </div>    
+                </div>
+                <div className="Images">
+                    <a href="https://www.instagram.com/devsphere.uz/">
+                        <img width="50" src={Insta} alt="Instagram" />
+                    </a>
+                    <a href="https://t.me/JahongirFox">
+                        <img width="50" src={Telegram} alt="Telegram" />
+                    </a>
+                    <a href="tel:+998908257503">
+                        <img width="50" src={Telephone} alt="Telegram" />
+                    </a>
                 </div>
             </div>
         </nav>

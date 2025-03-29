@@ -1,60 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-nav{
-    background-color: #2C2E3A;
-    width: 100%;
-    height: auto;
-}
-.Center-Nav>p{
-    color: white;
-    font-size: clamp(5px, 10vw, 40px);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.nav-ul-links>ul{
-    color: white;
-    font-size: clamp(5px, 6vw, 23px);
-    font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.Nav-ul-link-width{
-    background-color: #2C2E3A;
-    border: 1px solid white;
-    width: clamp(0px, 100%, 100%);
-    text-align: center;
-    padding: 11px;
-    border-radius: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.Nav-ul-link-width:hover{
-    box-shadow: 0px 0px 10px white;
-    transform: scale(1.0);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.nav-ul-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 600px;
-}
-.Nav-ul-link-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Center-Nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 25px;
-}
-@media(max-width: 1000px){
-
-}
- */
 * {
     margin: 0;
     padding: 0;
@@ -135,6 +78,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     padding: 25px;
+    width: 100%;
 }
 
 /* Hamburger menu */
@@ -147,7 +91,21 @@ nav {
     border: none;
 }
 
-/* Responsive: 1000px dan kichik ekranlar uchun */
+.Images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+/* Kichik ekranlarda rasmlar yashiriladi */
+@media (max-width: 1430px) {
+    .Images {
+        display: none;
+    }
+}
+
+/* Responsive navbar */
 @media (max-width: 1100px) {
     .menu-toggle {
         display: block;
@@ -170,7 +128,7 @@ nav {
 
     .Nav-ul-link-center.active {
         display: flex;
-        top: 120px;
+        top: 110px; /* Navbar ostidan chiqib kelishi uchun */
     }
 
     .nav-ul-links ul {
