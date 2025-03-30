@@ -12,13 +12,13 @@ nav {
 
 .Center-Nav > p {
     color: white;
-    font-size: clamp(5px, 10vw, 40px);
+    font-size: clamp(5px, 10vw, 35px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-ul-links > ul {
     color: white;
-    font-size: clamp(5px, 6vw, 23px);
+    font-size: clamp(5px, 6vw, 21px);
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -95,7 +95,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 160px;
 }
 
 /* Kichik ekranlarda rasmlar yashiriladi */

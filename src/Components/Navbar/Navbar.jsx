@@ -30,13 +30,13 @@ function Navbar() {
                 </div>
                 <div className="Images">
                     <a href="https://www.instagram.com/devsphere.uz/">
-                        <img width="50" src={Insta} alt="Instagram" />
+                        <img width="40" src={Insta} alt="Instagram" />
                     </a>
                     <a href="https://t.me/JahongirFox">
-                        <img width="50" src={Telegram} alt="Telegram" />
+                        <img width="40" src={Telegram} alt="Telegram" />
                     </a>
                     <a href="tel:+998908257503">
-                        <img width="50" src={Telephone} alt="Telegram" />
+                        <img width="40" src={Telephone} alt="Telegram" />
                     </a>
                 </div>
             </div>
