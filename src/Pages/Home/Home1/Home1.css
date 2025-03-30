@@ -11,7 +11,7 @@
     
 }
 .Home1-container{
-    padding: 11%;
+    padding: 16%;
 }
 .Home1-container>p{
     color: white;
@@ -21,6 +21,7 @@
     font-weight: 500;
     text-shadow: 0px 0px 30px white;
     text-align: center;
+    margin-top: 30px;
 }
 .Home1-p1>p{
     color: white;
