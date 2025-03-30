@@ -88,7 +88,7 @@ function Footer() {
                         <ul><a href="">Home</a></ul>
                         <ul><a href="">About</a></ul> 
                         <ul><a href="">Works</a></ul>
-                        <ul><a href="">Blogs</a></ul>
+                        <ul><a href="">Contacts</a></ul>
                 </div>
                 <div className="Imgs-blocks">
                     <p>Social</p>

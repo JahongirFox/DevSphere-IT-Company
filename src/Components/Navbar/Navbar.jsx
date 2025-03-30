@@ -19,9 +19,8 @@ function Navbar() {
                     <div className="Nav-ul-link-width">
                         <div className="nav-ul-links">
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">About</a></li>
-                                <li><a href="#">Works</a></li>
                                 <li><a href="#">Blogs</a></li>
                                 <li><a href="#">Contacts</a></li>
                             </ul>
