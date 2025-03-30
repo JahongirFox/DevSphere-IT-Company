@@ -20,20 +20,21 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: clamp(0px, 9vw, 40px);
+    font-size: clamp(24px, 5vw, 40px);
     font-weight: 400;
     text-shadow: 0px 0px 20px white;
-    padding: 20px;
+    padding: 30px;
 }
 
 .center-media {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 70px;
-    width: 100%;
-    max-width: 1000px;
-    margin-top: 60px;
+    width: 80%;
+    max-width: 1300px;
+    justify-content: center;
+    /* padding: 40px; */
+    margin-top: 30px;
 }
 
 .Home3-card {
@@ -41,14 +42,16 @@
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    width: 180px;
-    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 30px white;
+    box-shadow: 0px 0px 20px white;
+    transition: box-shadow 0.3s ease-in-out;
+}
 
+.Home3-card:hover {
+    box-shadow: 0px 0px 30px white;
 }
 
 .Img-center img {
@@ -70,27 +73,15 @@
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .Home3-Container p {
-        font-size: 30px;
-    }
-    .center-media {
-        justify-content: center;
-    }
-}
-
 @media (max-width: 768px) {
     .Home3-Container p {
         font-size: 26px;
     }
     .center-media {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
     .Home3-card {
-        width: 160px;
-        height: 230px;
+        padding: 15px;
     }
     .Home3-text-request h5 {
         font-size: 16px;
@@ -105,11 +96,10 @@
         font-size: 22px;
     }
     .center-media {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
     }
     .Home3-card {
-        width: 90%;
+        width: 100%;
         height: auto;
         padding: 15px;
     }
