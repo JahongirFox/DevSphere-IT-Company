@@ -85,16 +85,16 @@ function Footer() {
             <div className="Flex-company-blocks">
                 <div className="Company">
                         <p>Company</p>
-                        <ul><a href="">Home</a></ul>
-                        <ul><a href="">About</a></ul> 
-                        <ul><a href="">Works</a></ul>
-                        <ul><a href="">Contacts</a></ul>
+                        <ul><a href="/">Home</a></ul>
+                        <ul><a href="/">About</a></ul> 
+                        <ul><a href="/">Works</a></ul>
+                        <ul><a href="/">Contacts</a></ul>
                 </div>
                 <div className="Imgs-blocks">
                     <p>Social</p>
-                    <img style={{marginTop:"0px"}} width={35} src={Insta} alt="" /> <br />
-                    <img width={35} src={Telegram} alt="" /> <br />
-                    <img width={35} src={Telephone} alt="" /> <br />
+                    <a href="https://www.instagram.com/raxmatjonoww/"><img style={{marginTop:"0px"}} width={35} src={Insta} alt="" /></a> <br />
+                    <a href="https://t.me/JahongirFox"><img width={35} src={Telegram} alt="" /></a> <br />
+                    <a href="tel:+998908257503"><img width={35} src={Telephone} alt="" /></a> <br />
                 </div>
             </div>
             </div>
