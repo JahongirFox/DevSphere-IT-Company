@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 nav {
     background-color: #2C2E3A;
     width: 100%;

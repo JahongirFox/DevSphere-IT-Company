@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <nav>
             <div className="Center-Nav">
-                <p className="logo">DevSphere</p>
+                <a href="/"><p className="logo">DevSphere</p></a>
                 {/* Hamburger Button */}
                 <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
                     ☰
