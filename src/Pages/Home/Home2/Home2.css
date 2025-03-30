@@ -48,6 +48,11 @@
     background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
 }
+.Card1:hover {
+    box-shadow: 0px 0px 25px white;
+    transition: 0.5s;
+   
+}
 
 .Card1 img {
     width: 100%;
@@ -60,6 +65,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     margin-top: 13px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
 }
 
 .center-images1234 {

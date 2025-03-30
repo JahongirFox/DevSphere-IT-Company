@@ -12,30 +12,30 @@ function Home2() {
                 <p>Our Work</p>
             </div>
                     <div className="flex-images">
-                        <div className="Card1">
+                        <a href="https://skywings-app.vercel.app/"><div className="Card1">
                             <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img2} alt="" /> <br />
                             </div>
                             <p>Skywings</p>
-                        </div>
-                        <div className="Card1">
+                        </div></a>
+                        <a style={{textDecoration:"none"}} href="https://fasten.com/uz_uz"><div className="Card1">
                             <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img3} alt="" /> <br />
                             </div>
                             <p>Fasten Taxi</p>
-                        </div>
-                        <div className="Card1">
+                        </div></a>
+                        <a href="https://surfing-eight.vercel.app/"><div className="Card1">
                             <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img4} alt="" /> <br />
                             </div>
                             <p>Surfing School</p>
-                        </div>
-                        <div className="Card1">
+                        </div></a>
+                        <a href="https://www.chillpro.uz/"><div className="Card1">
                             <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img1} alt="" /> <br />
                             </div>
                             <p>ChillPro Service</p>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
 
