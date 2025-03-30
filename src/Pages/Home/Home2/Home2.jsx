@@ -14,12 +14,6 @@ function Home2() {
                     <div className="flex-images">
                         <div className="Card1">
                             <div className="card">
-                                <img style={{borderRadius:"20px"}} width={350} src={img1} alt="" /> <br />
-                            </div>
-                            <p>ChillPro Service</p>
-                        </div>
-                        <div className="Card1">
-                            <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img2} alt="" /> <br />
                             </div>
                             <p>Skywings</p>
@@ -35,6 +29,12 @@ function Home2() {
                                 <img style={{borderRadius:"20px"}} width={350} src={img4} alt="" /> <br />
                             </div>
                             <p>Surfing School</p>
+                        </div>
+                        <div className="Card1">
+                            <div className="card">
+                                <img style={{borderRadius:"20px"}} width={350} src={img1} alt="" /> <br />
+                            </div>
+                            <p>ChillPro Service</p>
                         </div>
                     </div>
                 </div>
