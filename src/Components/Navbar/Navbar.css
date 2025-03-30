@@ -83,7 +83,7 @@ nav {
 
 /* Hamburger menu */
 .menu-toggle {
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     color: white;
     display: none;

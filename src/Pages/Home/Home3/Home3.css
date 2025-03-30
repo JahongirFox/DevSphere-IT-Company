@@ -1,0 +1,116 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home3 {
+    background-color: #2C2E3A;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.Home3-Container p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: clamp(0px, 9vw, 40px);
+    font-weight: 400;
+    text-shadow: 0px 0px 20px white;
+    padding: 20px;
+}
+
+.center-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 60px;
+}
+
+.Home3-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px white;
+
+}
+
+.Img-center img {
+    width: 60px;
+}
+
+.Home3-text-request h5 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Home3-text-request p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .Home3-Container p {
+        font-size: 30px;
+    }
+    .center-media {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Home3-Container p {
+        font-size: 26px;
+    }
+    .center-media {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Home3-card {
+        width: 160px;
+        height: 230px;
+    }
+    .Home3-text-request h5 {
+        font-size: 16px;
+    }
+    .Home3-text-request p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Home3-Container p {
+        font-size: 22px;
+    }
+    .center-media {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Home3-card {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+}
