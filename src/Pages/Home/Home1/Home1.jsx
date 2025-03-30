@@ -11,6 +11,9 @@ function Home1() {
                     <div className="Center-btn">
                         <button>Contact Us Now</button>
                     </div>
+                    <div className="PPP">
+                        <p>We're a team of expert developers, passionate <br /> about powering your business with innovative, <br /> high-impact technology solutions.</p>
+                    </div>
                 </div>
             </div>
         </div>

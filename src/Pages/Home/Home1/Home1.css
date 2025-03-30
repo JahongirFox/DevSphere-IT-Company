@@ -38,10 +38,10 @@
     font-weight: 400;
     background-color: #2C2E3A;
     border: 1px solid white;
-    width: 590px;
+    width: 600px;
     padding: 10px;
     border-radius: 10px;
-    font-size: clamp(0px, 5vw, 25px);
+    font-size: clamp(0px, 4vw, 25px);
     font-weight: 300;
     margin-top: 30px;
     text-shadow: 0px 0px 30px white;
@@ -57,4 +57,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.PPP>p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: clamp(0px, 3.8vw, 33px);
+    font-weight: 400;
+    margin-top: 20px;
+    text-shadow: 0px 0px 30px white;
+    text-align: center;
 }
