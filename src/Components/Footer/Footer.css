@@ -12,7 +12,7 @@
     padding: 20px;
 }
 
-.Footer-DevSphere>a>p{
+.Footer-DevSphere>p{
     color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,7 +21,7 @@
     margin-top: 2%;
 }
 
-.Footer-DevSphere>h3{
+.Footer-DevSphere>a>h3{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
@@ -82,7 +82,11 @@
 }
 a {
     text-decoration: none;
-    color: white';
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: clamp(5px, 10vw, 35px);
+
 }
 .Imgs-blocks>p{
     color: white;
