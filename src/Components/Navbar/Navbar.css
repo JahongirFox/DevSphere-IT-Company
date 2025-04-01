@@ -132,7 +132,7 @@ nav {
 
     .Nav-ul-link-center.active {
         display: flex;
-        top: 110px; /* Navbar ostidan chiqib kelishi uchun */
+        top: 80px; /* Navbar ostidan chiqib kelishi uchun */
     }
 
     .nav-ul-links ul {

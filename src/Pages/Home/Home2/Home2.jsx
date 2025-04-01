@@ -16,7 +16,7 @@ function Home2() {
                             <div className="card">
                                 <img style={{borderRadius:"20px"}} width={350} src={img2} alt="" /> <br />
                             </div>
-                            <p>skewing</p>
+                            <p>Skywings</p>
                         </div></a>
                         <a style={{textDecoration:"none"}} href="https://fasten.com/uz_uz"><div className="Card1">
                             <div className="card">
