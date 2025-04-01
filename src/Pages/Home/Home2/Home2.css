@@ -9,9 +9,9 @@
     background-color: #2C2E3A;
     width: 100%;
     height: auto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-align: center;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 /* Title */
@@ -31,15 +31,15 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1400px;
+    max-width: 1500px;
     padding: 30px;
     margin: 0 auto;
-    gap: 40px;
+    gap: 50px;
 }
 
 /* Card Style */
 .Card1 {
-    width: 290px;
+    width: 300px;
     height: auto;
     /* border: 3px solid white; */
     border-radius: 30px;
