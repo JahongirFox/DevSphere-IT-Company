@@ -94,7 +94,7 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
     .Home3-card {
-        padding: 15px;
+        padding: 13px;
     }
     .Home3-text-request h5 {
         font-size: 16px;
