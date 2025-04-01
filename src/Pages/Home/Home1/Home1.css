@@ -27,7 +27,7 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
-    font-size: clamp(0px, 5.5vw, 33px);
+    font-size: clamp(0px, 4vw, 33px);
     font-weight: 400;
     margin-top: 20px;
     text-shadow: 0px 0px 30px white;
