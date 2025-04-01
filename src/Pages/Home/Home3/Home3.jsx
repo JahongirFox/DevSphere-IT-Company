@@ -4,6 +4,7 @@ import request from './request.png'
 import jadval from './jadva.png'
 import jas from './jasdasd.png'
 import develop from './design.png'
+import money from './money.png'
 function Home3() {
     return(
         <div className="Home3">
@@ -49,7 +50,7 @@ function Home3() {
                 </div>
                 <div className="Home3-card">
                     <div className="Img-center">
-                        <img width={60} src={request} alt="" />
+                        <img width={60} src={money} alt="" />
                     </div>
                     <div className="Home3-text-request">
                         <h5 class="heading-design">Deliver</h5>
