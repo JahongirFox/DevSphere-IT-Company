@@ -52,7 +52,7 @@ nav {
 .nav-ul-links ul {
     list-style: none;
     display: flex;
-    gap: 100px;
+    gap: 70px;
 }
 
 .nav-ul-links ul li {
@@ -63,6 +63,7 @@ nav {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
+    font-size: 24px;
 }
 
 .nav-ul-links ul li a:hover {

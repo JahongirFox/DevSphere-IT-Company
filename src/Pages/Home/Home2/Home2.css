@@ -31,15 +31,15 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1200px;
-    padding: 40px;
+    max-width: 1400px;
+    padding: 30px;
     margin: 0 auto;
-    gap: 70px;
+    gap: 40px;
 }
 
 /* Card Style */
 .Card1 {
-    width: 400px;
+    width: 290px;
     height: auto;
     /* border: 3px solid white; */
     border-radius: 30px;
