@@ -94,7 +94,7 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
     .Home3-card {
-        padding: 13px;
+        padding: 15px;
     }
     .Home3-text-request h5 {
         font-size: 16px;
@@ -121,6 +121,7 @@
     }
     .center-media {
         grid-template-columns: 1fr;
+        margin-top: 55px;
     }
     .Home3-card {
         width: 100%;
