@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import Insta from "./insta.png";
 import Telegram from "./telegram.png";
@@ -7,6 +7,12 @@ import Telephone from "./telephone.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation(); // Joriy sahifa URL manzilini olish uchun
+
+    // Sahifa har safar o'zgarganda menu yopiladi
+    useEffect(() => {
+        setIsOpen(false);
+    }, [location.pathname]);
 
     return (
         <nav>

@@ -11,7 +11,7 @@
 .About1-text>p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: clamp(0px, 4.2vw, 35px);
+    font-size: clamp(0px, 4vw, 35px);
     font-weight: 400;
     text-shadow: 0px 0px 30px white;
     text-align: center;
