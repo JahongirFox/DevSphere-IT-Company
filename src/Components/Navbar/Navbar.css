@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000713;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    position: relative; /* nav pozitsiyasi asos bo‘ladi */
+    z-index: 10; /* nav ham oldinda turishi kerak */
+}
+
+.navbar-p p {
+    color: rgb(37, 106, 255);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: clamp(20px, 7vw, 35px);
+    padding: 10px;
+}
+
+.Flex-Two-Navbars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Nav-Link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.Nav-Link a {
+    text-decoration: none;
+    color: rgb(116, 160, 255);
+    font-size: clamp(0px, 2.7vw, 27px);
+    font-weight: 100;
+    font-family: Montserrat, sans-serif;
+    transition: 0.3s;
+}
+
+.Nav-Link a:hover {
+    color: white;
+}
+
+/* HAMBURGER STYLES */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger .bar {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(135, 173, 255);
+    transition: 0.3s;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .Felx-Navbars {
+        position: absolute;
+        top: 100%; /* nav pastidan boshlanadi */
+        left: 0;
+        width: 100%;
+        background-color: #000713;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        z-index: 9; /* Home pastda qoladi */
+    }
+
+    .Felx-Navbars.open {
+        display: flex;
+    }
+
+    .Nav-Link {
+        flex-direction: column;
+        gap: 17px;
+        padding: 20px 0;
+    }
+
+    .Nav-Link a {
+        font-size: clamp(14px, 5vw, 24px);
+    }
+}
