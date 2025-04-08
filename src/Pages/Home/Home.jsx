@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.css'
 import img from '../../assets/img.png'
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Home() {
     return(
