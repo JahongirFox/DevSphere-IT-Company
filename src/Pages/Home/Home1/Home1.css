@@ -77,8 +77,9 @@
 
     .Text-and-btn > p {
         text-align: center;
+        font-weight: 500;
         font-size: clamp(0px, 3.7vw, 25px);
-        line-height: clamp(0px, 6vw, 50px);
+        line-height: clamp(0px, 7vw, 50px);
     }
 
     .Home-have-a-text-about-us {
