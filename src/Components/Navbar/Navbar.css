@@ -62,6 +62,9 @@ nav {
     background-color: rgb(37, 106, 255);
     transition: 0.3s;
 }
+.small-nav-card{
+    display: none;
+}
 
 /* RESPONSIVE STYLES */
 @media screen and (max-width: 768px) {
@@ -93,5 +96,54 @@ nav {
 
     .Nav-Link a {
         font-size: clamp(14px, 5vw, 24px);
+    }
+}
+@media screen and (max-width: 690px) {
+    .Flex-Two-Navbars{
+        display: none;
+    }
+    /* .small-nav-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        border: 1px solid rgb(37, 106, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(37, 106, 255);
+        padding: 15px;
+    } */
+    .small-nav-card {
+        position: fixed;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid rgb(37, 106, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(37, 106, 255);
+        padding: 15px;
+        background-color:#000713; /* orqa fon bo‘yalgan bo‘lsin */
+        z-index: 1000; /* boshqa elementlar ustida turadi */
+    }
+    .Nav-Link-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: clamp(300px, 90vw, 400px);
+    }
+    .Nav-Link-cards>a{
+        text-decoration: none;
+        font-size: clamp(0px, 4vw, 20px);
+        font-family: Montserrat, sans-serif;
+        color: white;
+        text-shadow: 0px 0px 30px rgb(37, 106, 255);
+    }
+    nav {
+        background-color: #000713;
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        position: relative; /* nav pozitsiyasi asos bo‘ladi */
+        z-index: 10; /* nav ham oldinda turishi kerak */
     }
 }

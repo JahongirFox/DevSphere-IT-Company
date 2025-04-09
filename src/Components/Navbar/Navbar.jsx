@@ -27,6 +27,13 @@ function Navbar() {
                     </div>
                 </div>
             </div>
+            <div className="small-nav-card">
+                <div className="Nav-Link-cards">
+                            <a href="/">Главная</a>
+                            <a href="/">О нас</a>
+                            <a href="/">Наша работы</a>
+                        </div>
+                </div>
         </nav>
     );
 }

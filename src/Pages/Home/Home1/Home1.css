@@ -22,6 +22,7 @@
     font-weight: 100;
     font-family: Montserrat, sans-serif;
     line-height: 60px;
+    margin-top: 40px;
 }
 
 .Text-and-btn > p > span {
@@ -44,7 +45,7 @@
     border-radius: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
 }
 
@@ -58,7 +59,7 @@
     border-radius: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
 }
 
@@ -77,9 +78,8 @@
 
     .Text-and-btn > p {
         text-align: center;
-        font-weight: 500;
         font-size: clamp(0px, 3.7vw, 25px);
-        line-height: clamp(0px, 7vw, 50px);
+        line-height: clamp(0px, 6vw, 50px);
     }
 
     .Home-have-a-text-about-us {
