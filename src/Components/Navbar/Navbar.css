@@ -37,7 +37,7 @@ nav {
 
 .Nav-Link a {
     text-decoration: none;
-    color: rgb(116, 160, 255);
+    color: rgb(37, 106, 255);
     font-size: clamp(0px, 2.7vw, 27px);
     font-weight: 100;
     font-family: Montserrat, sans-serif;
@@ -59,7 +59,7 @@ nav {
 .hamburger .bar {
     width: 20px;
     height: 2px;
-    background-color: rgb(135, 173, 255);
+    background-color: rgb(37, 106, 255);
     transition: 0.3s;
 }
 

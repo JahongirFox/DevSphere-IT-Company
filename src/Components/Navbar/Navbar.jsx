@@ -23,7 +23,7 @@ function Navbar() {
                     <div className="Nav-Link">
                         <a href="/">Главная</a>
                         <a href="/">О нас</a>
-                        <a href=".">Наша работы</a>
+                        <a href="/">Наша работы</a>
                     </div>
                 </div>
             </div>
