@@ -129,7 +129,7 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: clamp(300px, 90vw, 400px);
+        width: clamp(100px, 70vw, 300px);
     }
     .Nav-Link-cards>a{
         text-decoration: none;
