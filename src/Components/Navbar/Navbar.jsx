@@ -22,7 +22,7 @@ function Navbar() {
                 <div className={`Felx-Navbars ${menuOpen ? "open" : ""}`}>
                     <div className="Nav-Link">
                         <a href="/">Главная</a>
-                        <a href="/">О нас</a>
+                        <a href="/aboutus">О нас</a>
                         <a href="/">Наша работы</a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function Navbar() {
             <div className="small-nav-card">
                 <div className="Nav-Link-cards">
                             <a href="/">Главная</a>
-                            <a href="/">О нас</a>
+                            <a href="/aboutus">О нас</a>
                             <a href="/">Наша работы</a>
                         </div>
                 </div>
