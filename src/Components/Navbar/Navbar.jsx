@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Navbar.css';
-
+import { Link } from 'react-router-dom'
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -28,11 +28,13 @@ function Navbar() {
                 </div>
             </div>
             <div className="small-nav-card">
-                <div className="Nav-Link-cards">
-                            <a href="/">Главная</a>
-                            <a href="/aboutus">О нас</a>
-                            <a href="/">Наша работы</a>
-                        </div>
+                    <div className="Nav-Link-cards">
+                        <ul>
+                            <li><Link to="/" className="nav-link">Главная</Link></li>
+                            <li><Link to="/aboutus" className="nav-link">О нас</Link></li>
+                            <li><Link to="/work" className="nav-link">Наша работы</Link></li>
+                        </ul>
+                    </div>
                 </div>
         </nav>
     );
