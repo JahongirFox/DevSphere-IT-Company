@@ -20,10 +20,12 @@ function Navbar() {
                     <span className={menuOpen ? "bar open" : "bar"}></span>
                 </div>
                 <div className={`Felx-Navbars ${menuOpen ? "open" : ""}`}>
-                    <div className="Nav-Link">
-                        <a href="/">Главная</a>
-                        <a href="/aboutus">О нас</a>
-                        <a href="/">Наша работы</a>
+                <div className="Nav-Link-cards">
+                        <ul>
+                            <li><Link to="/" className="nav-link">Главная</Link></li>
+                            <li><Link to="/aboutus" className="nav-link">О нас</Link></li>
+                            <li><Link to="/work" className="nav-link">Наша работы</Link></li>
+                        </ul>
                     </div>
                 </div>
             </div>
