@@ -6,7 +6,7 @@
 .About1{
     background-color:  #000713;
     width: 100%;
-    height: auto;
+    height: 92vh;
 }
 .About1-text>p{
     color: white;
@@ -31,6 +31,9 @@
 
 }
 @media (max-width: 1200px) {
+    .About1{
+        height: auto;
+    }
     .About1-text {
         flex-direction: column;
         padding: 100px 40px;
@@ -50,6 +53,9 @@
 }
 
 @media (max-width: 1500px) {
+    .About1{
+        height: auto;
+    }
     .About1-text {
         padding: 80px 30px;
     }

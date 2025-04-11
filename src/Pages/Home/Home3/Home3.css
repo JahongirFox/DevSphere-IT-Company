@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home3{
+    width: 100%;
+    background-color: #000713;
+    height: 100vh;
+    padding: 30px;
+}
+.Home3{
+    color: white;
+    font-size: clamp(0px, 4vw, 40px);
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.Home3-cards{
+    padding: 25px 0px;
+    width: 450px;
+    border: 2px solid white;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+}
+.Home3-Flex-the-cards{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Home3-img>p{
+    color: white;
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+}

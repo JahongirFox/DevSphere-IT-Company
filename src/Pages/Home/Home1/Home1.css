@@ -5,6 +5,7 @@
 }
 
 .Home {
+    width: 100%;
     background-color: #000713;
     height: 91.9vh;
 }
@@ -114,7 +115,7 @@
         display: block;
         margin: 30px auto 0 auto;
         font-size: clamp(10px, 4vw, 16px); /* Font size for smaller screens */
-        padding: 18px 50px;
+        padding: 10px 0px;
         width: 100%;
         text-align: center;
     }
