@@ -15,7 +15,7 @@ function Home3() {
                     <div className="Home3-cards">
                         <img src={kia} alt="KIA" />
                         <div className="Home3-info">
-                            <p>kia.uz</p>
+                            <p>Kia</p>
                             <button className="Home3-site-button">Веб-сайт</button>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ function Home3() {
                     <div className="Home3-cards">
                         <img src={chillpro} alt="ChillPro" />
                         <div className="Home3-info">
-                            <p>chillpro.uz</p>
+                            <p>ChillPro</p>
                             <button className="Home3-site-button">Веб-сайт</button>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ function Home3() {
                     <div className="Home3-cards">
                         <img src={fasten} alt="Fasten" />
                         <div className="Home3-info">
-                            <p>fasten.com</p>
+                            <p>Fasten</p>
                             <button className="Home3-site-button">Веб-сайт</button>
                         </div>
                     </div>

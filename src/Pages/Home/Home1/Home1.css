@@ -79,7 +79,7 @@
 
     .Text-and-btn > p {
         text-align: center;
-        font-size: clamp(0px, 4.2vw, 25px);
+        font-size: clamp(0px, 4.2vw, 30px);
         line-height: clamp(0px, 7vw, 50px);
         margin-top: 40px;
     }
