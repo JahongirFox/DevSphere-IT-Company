@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000713;
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    position: relative; /* nav pozitsiyasi asos bo‘ladi */
+    z-index: 10; /* nav ham oldinda turishi kerak */
+}
+.Nav-Link-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; /* 100% dan foydalanish kerak, yoki kerakli kenglikni belgilash */
+    flex-wrap: wrap; /* Ekran kichik bo'lsa, elementlar satrlarga joylashsin */
+    gap: 20px; /* Har bir element orasida bo'shliq */
+    padding: 10px 0;
+}
+
+/* .Nav-Link-cards > ul > li > link style */
+.Nav-Link-cards > ul {
+    list-style: none;
+    display: flex;
+    gap: 100px; /* Linklar o'rtasidagi bo'shliq */
+    justify-content: space-around; /* Linklar markazga joylashadi */
+    margin: 0;
+    padding: 0;
+}
+
+.Nav-Link-cards > ul > li {
+    display: inline-block;
+}
+
+.Nav-Link-cards > ul > li > a { /* <Link> tagiga moslashtirish */
+    text-decoration: none;
+    font-size: clamp(0px, 4vw, 25px); /* Ekran o'lchamiga qarab o'lchamni moslashtirish */
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 30px rgb(37, 106, 255); /* Yoritilgan effekt */
+    transition: 0.3s; /* Hover holatida yumshoq o'tish */
+}
+
+.Nav-Link-cards > ul > li > a:hover {
+    color: rgb(73, 131, 255); /* Hover effekti */
+    text-shadow: 0px 0px 15px rgb(73, 131, 255); /* Hoverda rangni o'zgartiradi */
+}
+.navbar-p p {
+    color: rgb(37, 106, 255);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: clamp(20px, 7vw, 35px);
+    padding: 10px;
+}
+
+.Flex-Two-Navbars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Nav-Link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.Nav-Link a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(0px, 2.7vw, 27px);
+    font-weight: 100;
+    font-family: Montserrat, sans-serif;
+    transition: 0.3s;
+}
+
+.Nav-Link a:hover {
+    color: rgb(73, 131, 255);
+}
+
+/* HAMBURGER STYLES */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger .bar {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(37, 106, 255);
+    transition: 0.3s;
+}
+.small-nav-card{
+    display: none;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .Felx-Navbars {
+        position: absolute;
+        top: 100%; /* nav pastidan boshlanadi */
+        left: 0;
+        width: 100%;
+        background-color: #000713;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        z-index: 9; /* Home pastda qoladi */
+    }
+
+    .Felx-Navbars.open {
+        display: flex;
+    }
+
+    .Nav-Link {
+        flex-direction: column;
+        gap: 17px;
+        padding: 20px 0;
+    }
+
+    .Nav-Link a {
+        font-size: clamp(14px, 5vw, 24px);
+    }
+}
+@media screen and (max-width: 690px) {
+    .Flex-Two-Navbars{
+        display: none;
+    }
+    /* .small-nav-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        border: 1px solid rgb(37, 106, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(37, 106, 255);
+        padding: 15px;
+    } */
+    /* .small-nav-card style */
+.small-nav-card {
+    position: fixed;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(37, 106, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(37, 106, 255);
+    padding: 0px;
+    background-color: #000713; /* Orqa fonni o'zgartiradi */
+    z-index: 1000;
+    margin-top: 10px; /* Boshqa elementlar ustida ko'rinadi */
+}
+
+/* .Nav-Link-cards style */
+.Nav-Link-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; /* 100% dan foydalanish kerak, yoki kerakli kenglikni belgilash */
+    flex-wrap: wrap; /* Ekran kichik bo'lsa, elementlar satrlarga joylashsin */
+    gap: 20px; /* Har bir element orasida bo'shliq */
+    padding: 16px 0;
+}
+
+/* .Nav-Link-cards > ul > li > link style */
+.Nav-Link-cards > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Linklar o'rtasidagi bo'shliq */
+    justify-content: space-around; /* Linklar markazga joylashadi */
+    margin: 0;
+    padding: 0;
+}
+
+.Nav-Link-cards > ul > li {
+    display: inline-block;
+}
+
+.Nav-Link-cards > ul > li > a { /* <Link> tagiga moslashtirish */
+    text-decoration: none;
+    font-size: clamp(0px, 4vw, 20px); /* Ekran o'lchamiga qarab o'lchamni moslashtirish */
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 30px rgb(37, 106, 255); /* Yoritilgan effekt */
+    transition: 0.3s; /* Hover holatida yumshoq o'tish */
+}
+
+.Nav-Link-cards > ul > li > a:hover {
+    color: rgb(73, 131, 255); /* Hover effekti */
+    text-shadow: 0px 0px 15px rgb(73, 131, 255); /* Hoverda rangni o'zgartiradi */
+}
+
+}

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Works {
+    width: 100%;
+    background-color: #000713;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.Works > p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 70px 20px 0;
+}
+
+.Works-Flex-the-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.Works-link {
+    text-decoration: none;
+}
+
+.Works-cards {
+    width: 100%;
+    max-width: 380px;
+    background-color: #010d1f;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #256aff;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Works-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 60px #1a5bff;
+}
+
+.Works-cards img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+/* === TEXT + BUTTON container === */
+.Works-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 18px 0;
+    flex-direction: row; /* p birinchi, button keyin */
+}
+
+.Works-info p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.Works-button {
+    background-color: #1a5bff;
+    box-shadow: 0 0 60px #1a5bff;
+
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.Works-button:hover {
+    background-color: #3a77ff;
+}
+
+/* ------------ Responsive ------------ */
+@media (max-width: 1024px) {
+    .Works-info p {
+        font-size: 20px;
+    }
+
+    .Works-button {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+}
+
+@media (max-width: 880px) {
+    .Works-Flex-the-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+}
+
+@media (max-width: 690px) {
+    .Works > p {
+        font-size: 24px;
+        padding-top: 100px;
+    }
+
+    .Works-info {
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Works {
+        padding: 10px 0 60px;
+    }
+
+    .Works-Flex-the-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
+
+    .Works-cards {
+        max-width: 80%;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0 0 30px #256aff;
+    }
+
+    .Works-info p {
+        font-size: 20px;
+    }
+
+    .Works-button {
+        font-size: 13px;
+        padding: 7px 12px;
+    }
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home {
+    width: 100%;
+    background-color: #000713;
+    height: 91.9vh;
+}
+
+.Home-have-a-text-about-us {
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Text-and-btn > p {
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Montserrat, sans-serif;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+.Text-and-btn > p > span {
+    color: rgb(37, 106, 255);
+}
+
+.Home-have-a-text-about-us-img > img {
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px rgb(37, 106, 255);
+    width: 450px;
+}
+
+.animated-button {
+    margin-top: 30px;
+    background: linear-gradient(135deg, #256aff, #06b6d4);
+    color: white;
+    padding: 18px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+}
+
+.animated-button2 {
+    margin-top: 30px;
+    background: linear-gradient(135deg, #256aff, #06b6d4);
+    color: white;
+    padding: 18px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+}
+
+.animated-button2 {
+    display: none;
+}
+
+.animated-button:hover {
+    background: linear-gradient(135deg, #1e40af, #0891b2);
+}
+
+@media (max-width: 1700px) {
+    .Home {
+        height: auto;
+    }
+
+    .Text-and-btn > p {
+        text-align: center;
+        font-size: clamp(0px, 4.2vw, 25px);
+        line-height: clamp(0px, 7vw, 50px);
+    }
+
+    .Home-have-a-text-about-us {
+        display: block;
+    }
+
+    .Flex-to-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Home-have-a-text-about-us-img > img {
+        border-radius: 17%;
+        box-shadow: 0px 0px 60px rgba(37, 106, 255, 0.7);
+        width: 450px;
+        max-width: 95%;
+        margin-top: 50px;
+    }
+
+    .Home-have-a-text-about-us-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animated-button {
+        display: none;
+    }
+
+    .animated-button2 {
+        display: block;
+        margin: 30px auto 0 auto;
+        font-size: clamp(14px, 2.5vw, 18px);
+        padding: 10px 40px;
+        width: fit-content;
+        text-align: center;
+        background: linear-gradient(135deg, #256aff, #06b6d4);
+        color: white;
+        border: none;
+        border-radius: 14px;
+        font-family: Montserrat, sans-serif;
+        box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .animated-button2:hover {
+        background: linear-gradient(135deg, #1e40af, #0891b2);
+    }
+}
+@media (max-width: 480px) {
+    .animated-button2 {
+        font-size: 14px;
+        padding: 10px 0px;
+        width: 100%;
+        max-width: 300px;
+    }
+    .Flex-to-center {
+       padding-top: 10px;
+    }
+}

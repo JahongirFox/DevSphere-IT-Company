@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.About2{
+    background-color:  #000713;
+    width: 100%;
+    height: 100vh;
+}
+.card>img{
+    border-radius: 20px;
+}
+.card>p{
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+}
+.Felx-about-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+}
+.card-bord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000713;
+    border-radius: 20px;
+    box-shadow: 0px 0px 60px rgb(37, 106, 255);
+    width: 400px;
+    padding: 40px;
+}
+.About2>p{
+    color: white;
+    font-size: clamp(0px, 4vw, 50px);
+    text-align: center;
+    font-weight: 100;
+    font-family: Montserrat, sans-serif;
+    padding: 70px;
+}
+.center-about2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
