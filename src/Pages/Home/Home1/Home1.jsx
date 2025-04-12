@@ -13,6 +13,9 @@ function Home1() {
         <div className="Home">
             <div className="Flex-to-center">
                 <div className="Home-have-a-text-about-us">
+                        <div className="Home-have-a-text-about-us-img">
+                            <img width={500} src={img} alt="" />
+                        </div>
                     <div className="Text-and-btn">
                         <p>
                             <span>DevSphere</span> - это онлайн IT-компания,<br />
@@ -33,9 +36,6 @@ function Home1() {
                         </motion.button>
                     </div>
 
-                    <div className="Home-have-a-text-about-us-img">
-                        <img width={500} src={img} alt="" />
-                    </div>
                     <motion.button
                             whileHover={{ scale: 1.05, boxShadow: "0px 0px 90px rgb(37, 106, 255)" }}
                             whileTap={{ scale: 0.95 }}
