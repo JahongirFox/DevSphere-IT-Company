@@ -15,8 +15,8 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(20px, 4vw, 36px);
-    margin-bottom: 40px;
+    font-size: clamp(0px, 6.5vw, 36px);
+    /* margin-bottom: 40px; */
 }
 
 .Flex-Home4-bigs {
@@ -24,6 +24,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    margin-top: 30px;
 }
 
 .Home4-big {
@@ -72,7 +73,8 @@
 @media(max-width: 609px){
     .Flex-Home4-bigs {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 3px;
+        margin-top: 0px;
     }
     .Home4-big {
         background-color: #000713;
