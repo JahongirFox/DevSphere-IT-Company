@@ -15,7 +15,7 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(16px, 6vw, 36px); /* Dynamic font size for responsiveness */
+    font-size: clamp(20px, 6vw, 36px); /* Dynamic font size for responsiveness */
 }
 
 /* Flex container for cards */
@@ -152,7 +152,7 @@
     }
 
     .Home4-cardss > h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .Home4-cardss > p {
