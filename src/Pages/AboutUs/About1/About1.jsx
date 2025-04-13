@@ -6,9 +6,9 @@ function About1() {
     return(
         <div className="About1">
             <div className="About1-text">
+                 <img width={350} src={startup} alt="" />
                 <p>В <span>DevSphere</span> мы расширяем <br /> возможности бизнеса и стартапов, <br /> создавая динамические веб-сайты. <br /> Наши индивидуальные ик
                  решения <br /> обеспечиваютрезультаты, улучшают <br /> пользовательский опыт и максимизи- <br />руют прибыльность.</p>
-                 <img width={350} src={startup} alt="" />
             </div>
         </div>
     )
