@@ -8,6 +8,7 @@
     width: 100%;
     background-color: #000713;
     height: auto;
+    padding-bottom: 80px;
 }
 
 .Works > p {
@@ -15,8 +16,7 @@
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 0px;
-    margin-top: -25px;
+    padding: 70px 20px 0;
 }
 
 .Works-Flex-the-cards {
@@ -114,6 +114,12 @@
         font-size: 24px;
         padding-top: 100px;
     }
+    .Works-Flex-the-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
 
     .Works-info {
         /* flex-direction: column; */
@@ -122,9 +128,6 @@
 }
 
 @media (max-width: 600px) {
-    .Works {
-        padding: 10px 0 60px;
-    }
 
     .Works-Flex-the-cards {
         flex-direction: column;

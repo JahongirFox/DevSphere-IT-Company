@@ -49,7 +49,8 @@ nav {
     color: rgb(73, 131, 255); /* Hover effekti */
     text-shadow: 0px 0px 15px rgb(73, 131, 255); /* Hoverda rangni o'zgartiradi */
 }
-.navbar-p p {
+.navbar-p a {
+    text-decoration: none;
     color: rgb(37, 106, 255);
     text-align: center;
     font-family: Montserrat, sans-serif;
