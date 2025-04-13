@@ -15,7 +15,7 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(20px, 6.5vw, 36px);
+    font-size: clamp(0px,6vw, 36px);
 }
 
 /* Flex container for cards */
@@ -23,7 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
     margin-top: 30px;
     width: 100%;
     max-width: 1200px;
@@ -36,7 +36,7 @@
     border: 1px solid #1a5bff;
     box-shadow: 0 0 30px #1a5bff66;
     width: 260px;
-    height: 180px;
+    height: 120px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 40px;
@@ -48,7 +48,7 @@
 }
 
 .Home4-cardss {
-    padding: 20px;
+    padding: 30px;
     text-align: left;
     line-height: 1.5;
 }
@@ -80,12 +80,7 @@
 /* Mobile Devices (Portrait) */
 @media (max-width: 609px) {
     .Home4 {
-        padding: 20px 0;
-    }
-
-    .Home4 > p {
-        font-size: 28px;
-        margin-bottom: 20px;
+        padding: 30px 0;
     }
 
     .Flex-Home4-bigs {
@@ -118,10 +113,6 @@
         padding: 50px 15px;
     }
 
-    .Home4 > p {
-        font-size: 32px;
-    }
-
     .Flex-Home4-bigs {
         gap: 20px;
     }
@@ -148,10 +139,6 @@
 @media (min-width: 1024px) {
     .Home4 {
         padding: 80px 20px;
-    }
-
-    .Home4 > p {
-        font-size: 36px;
     }
 
     .Flex-Home4-bigs {
