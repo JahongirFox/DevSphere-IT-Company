@@ -15,16 +15,20 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(0px, 6.5vw, 36px);
-    /* margin-bottom: 40px; */
+    font-size: clamp(20px, 6.5vw, 36px);
 }
 
+/* Flex container for cards */
 .Flex-Home4-bigs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Home4-big {
@@ -36,10 +40,10 @@
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 40px;
+    flex-shrink: 0;
 }
 
 .Home4-big:hover {
-    /* transform: translateY(-10px); */
     box-shadow: 0 0 40px #1a5bffcc;
 }
 
@@ -70,20 +74,104 @@
     font-family: Montserrat, sans-serif;
     margin-top: 10px;
 }
-@media(max-width: 609px){
-    .Flex-Home4-bigs {
-        flex-wrap: wrap;
-        gap: 3px;
-        margin-top: 0px;
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 609px) {
+    .Home4 {
+        padding: 20px 0;
     }
+
+    .Home4 > p {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .Flex-Home4-bigs {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
     .Home4-big {
-        background-color: #000713;
-        border: 1px solid #1a5bff;
-        box-shadow: 0 0 30px #1a5bff66;
-        width: 270px;
-        height: 180px;
-        border-radius: 20px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        margin-top: 40px;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .Home4-cardss > h1 {
+        font-size: 20px;
+    }
+
+    .Home4-cardss > p {
+        font-size: 20px;
+    }
+
+    .Home4-cardss > h3 {
+        font-size: 14px;
+    }
+}
+
+/* Tablets (Portrait and Landscape) */
+@media (max-width: 768px) {
+    .Home4 {
+        padding: 50px 15px;
+    }
+
+    .Home4 > p {
+        font-size: 32px;
+    }
+
+    .Flex-Home4-bigs {
+        gap: 20px;
+    }
+
+    .Home4-big {
+        width: 280px;
+        height: 200px;
+    }
+
+    .Home4-cardss > h1 {
+        font-size: 21px;
+    }
+
+    .Home4-cardss > p {
+        font-size: 21px;
+    }
+
+    .Home4-cardss > h3 {
+        font-size: 15px;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+    .Home4 {
+        padding: 80px 20px;
+    }
+
+    .Home4 > p {
+        font-size: 36px;
+    }
+
+    .Flex-Home4-bigs {
+        gap: 50px;
+    }
+
+    .Home4-big {
+        width: 300px;
+        height: 220px;
+    }
+
+    .Home4-cardss > h1 {
+        font-size: 24px;
+    }
+
+    .Home4-cardss > p {
+        font-size: 22px;
+    }
+
+    .Home4-cardss > h3 {
+        font-size: 16px;
     }
 }

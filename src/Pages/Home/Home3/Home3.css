@@ -43,7 +43,6 @@
 }
 
 .Home3-cards:hover {
-    transform: scale(1.05);
     box-shadow: 0 0 60px #1a5bff;
 }
 
@@ -122,6 +121,10 @@
         font-size: 18px;
         padding: 10px 24px;
     }
+
+    .Home3-Flex-the-cards {
+        gap: 40px;
+    }
 }
 
 @media (max-width: 880px) {
@@ -130,6 +133,15 @@
         align-items: center;
         gap: 60px;
         margin: 15px;
+    }
+
+    .Home3-title {
+        font-size: 28px;
+    }
+
+    .Home3-button {
+        font-size: 18px;
+        padding: 12px 26px;
     }
 }
 
@@ -145,7 +157,6 @@
     }
 
     .Home3-info {
-        /* flex-direction: column; */
         gap: 20px;
     }
 
@@ -162,5 +173,27 @@
         font-size: 14px;
         padding: 10px 20px;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Home3 {
+        padding: 100px 10px;
+    }
+
+    .Home3-cards {
+        width: 100%;
+        max-width: 350px;
+        box-shadow: 0 0 30px #256aff;
+    }
+
+    .Home3-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .Home3-button {
+        font-size: 16px;
+        padding: 10px 22px;
     }
 }
