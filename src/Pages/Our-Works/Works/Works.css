@@ -8,7 +8,6 @@
     width: 100%;
     background-color: #000713;
     height: auto;
-    padding-bottom: 80px;
 }
 
 .Works > p {
@@ -16,7 +15,8 @@
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 70px 20px 0;
+    padding: 0px;
+    margin-top: -25px;
 }
 
 .Works-Flex-the-cards {
