@@ -98,8 +98,8 @@
     }
 
     .card p {
-        font-size: 20px;
-        margin-top: 40px;
+        font-size: 25px;
+        margin-top: 30px;
     }
 }
 
@@ -109,11 +109,11 @@
     }
 
     .card img {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
 
     .card p {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
