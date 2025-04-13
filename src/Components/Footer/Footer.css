@@ -56,14 +56,8 @@
     text-decoration: none;
     transition: color 0.3s ease;
 }
-.footer-links  a {
-    color: white;
-    line-height: 30px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 
-.footer-links a:hover {
+.footer-links ul li a:hover {
     color: #1a5bff;
 }
 

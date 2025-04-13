@@ -23,7 +23,7 @@ nav {
 }
 
 /* .Nav-Link-cards > ul > li > link style */
-.Nav-Link-cards {
+.Nav-Link-cards > ul {
     list-style: none;
     display: flex;
     gap: 100px; /* Linklar o'rtasidagi bo'shliq */
@@ -32,11 +32,11 @@ nav {
     padding: 0;
 }
 
-/* .Nav-Link-cards > ul > li {
+.Nav-Link-cards > ul > li {
     display: inline-block;
-} */
+}
 
-.Nav-Link-cards a { /* <Link> tagiga moslashtirish */
+.Nav-Link-cards > ul > li > a { /* <Link> tagiga moslashtirish */
     text-decoration: none;
     font-size: clamp(0px, 4vw, 25px); /* Ekran o'lchamiga qarab o'lchamni moslashtirish */
     font-family: Montserrat, sans-serif;
@@ -45,12 +45,11 @@ nav {
     transition: 0.3s; /* Hover holatida yumshoq o'tish */
 }
 
-.Nav-Link-cards a:hover {
+.Nav-Link-cards > ul > li > a:hover {
     color: rgb(73, 131, 255); /* Hover effekti */
     text-shadow: 0px 0px 15px rgb(73, 131, 255); /* Hoverda rangni o'zgartiradi */
 }
-.navbar-p a {
-    text-decoration: none;
+.navbar-p p {
     color: rgb(37, 106, 255);
     text-align: center;
     font-family: Montserrat, sans-serif;
@@ -159,10 +158,10 @@ nav {
     border: 1px solid rgb(37, 106, 255);
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(37, 106, 255);
-    padding: 15px;
+    padding: 0px;
     background-color: #000713; /* Orqa fonni o'zgartiradi */
     z-index: 1000;
-    margin-top: 5px; /* Boshqa elementlar ustida ko'rinadi */
+    margin-top: 6px; /* Boshqa elementlar ustida ko'rinadi */
 }
 
 /* .Nav-Link-cards style */
@@ -177,7 +176,7 @@ nav {
 }
 
 /* .Nav-Link-cards > ul > li > link style */
-.Nav-Link-cards {
+.Nav-Link-cards > ul {
     list-style: none;
     display: flex;
     gap: 30px; /* Linklar o'rtasidagi bo'shliq */
@@ -186,11 +185,11 @@ nav {
     padding: 0;
 }
 
-/* .Nav-Link-cards > ul > li {
+.Nav-Link-cards > ul > li {
     display: inline-block;
-} */
+}
 
-.Nav-Link-cards a { /* <Link> tagiga moslashtirish */
+.Nav-Link-cards > ul > li > a { /* <Link> tagiga moslashtirish */
     text-decoration: none;
     font-size: clamp(0px, 4vw, 20px); /* Ekran o'lchamiga qarab o'lchamni moslashtirish */
     font-family: Montserrat, sans-serif;
@@ -199,7 +198,7 @@ nav {
     transition: 0.3s; /* Hover holatida yumshoq o'tish */
 }
 
-.Nav-Link-cards a:hover {
+.Nav-Link-cards > ul > li > a:hover {
     color: rgb(73, 131, 255); /* Hover effekti */
     text-shadow: 0px 0px 15px rgb(73, 131, 255); /* Hoverda rangni o'zgartiradi */
 }

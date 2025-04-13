@@ -12,7 +12,7 @@ function Navbar() {
         <nav>
             <div className="Flex-Two-Navbars" >
                 <div className="navbar-p">
-                    <a href="/">DevSphere</a>
+                    <p>DevSphere</p>
                 </div>
                 <div className="hamburger" onClick={toggleMenu}>
                     <span className={menuOpen ? "bar open" : "bar"}></span>
@@ -21,23 +21,21 @@ function Navbar() {
                 </div>
                 <div className={`Felx-Navbars ${menuOpen ? "open" : ""}`}>
                 <div className="Nav-Link-cards">
-                        {/* <ul>
-                            <li><Link to="http://localhost:5173/" className="nav-link">Главная</Link></li>
-                            <li><Link to="http://localhost:5173/aboutus" className="nav-link">О нас</Link></li>
-                            <li><Link to="http://localhost:5173/works" className="nav-link">Наша работы</Link></li>
-                        </ul> */}
-                        <a className="nav-link" href="/">Главная</a>
-                        <a className="nav-link" href="/aboutus">О нас</a>
-                        <a className="nav-link" href="/works">Наша работы</a>
-                        
+                        <ul>
+                            <li><Link to="/" className="nav-link">Главная</Link></li>
+                            <li><Link to="/aboutus" className="nav-link">О нас</Link></li>
+                            <li><Link to="/works" className="nav-link">Наша работы</Link></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div className="small-nav-card">
                     <div className="Nav-Link-cards">
-                        <a className="nav-link" href="/">Главная</a>
-                        <a className="nav-link" href="/aboutus">О нас</a>
-                        <a className="nav-link" href="/works">Наша работы</a>
+                        <ul>
+                            <li><Link to="/" className="nav-link">Главная</Link></li>
+                            <li><Link to="/aboutus" className="nav-link">О нас</Link></li>
+                            <li><Link to="/works" className="nav-link">Наша работы</Link></li>
+                        </ul>
                     </div>
                 </div>
         </nav>

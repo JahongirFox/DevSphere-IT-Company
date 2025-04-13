@@ -14,14 +14,11 @@ function Footer() {
 
                 <div className="footer-links">
                     <h4>Навигация</h4>
-                    {/* <ul>
+                    <ul>
                         <li><Link to="/aboutus">О нас</Link></li>
                         <li><Link to="/works">Наши работы</Link></li>
                         <li><Link to="/contact">Контакты</Link></li>
-                    </ul> */}
-                    <a href="/aboutus">О нас</a><br />
-                    <a href="/works">Наши работы</a><br />
-                    <a href="/">Контакты</a>
+                    </ul>
                 </div>
 
                 <div className="footer-contact">
