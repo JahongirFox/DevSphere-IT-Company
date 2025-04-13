@@ -151,7 +151,7 @@
     }
 
     .Home3-cards {
-        max-width: 95%;
+        max-width: 100%;
         margin: 0 auto;
         box-shadow: 0 0 30px #256aff;
     }
@@ -183,7 +183,7 @@
 
     .Home3-cards {
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         box-shadow: 0 0 30px #256aff;
     }
 

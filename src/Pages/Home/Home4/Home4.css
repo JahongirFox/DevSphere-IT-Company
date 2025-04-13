@@ -1,9 +1,11 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* === Base Styles === */
 .Home4 {
     background-color: #000713;
     width: 100%;
@@ -15,15 +17,14 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(20px, 6vw, 36px); /* Dynamic font size for responsiveness */
+    font-size: clamp(20px, 6vw, 36px);
 }
 
-/* Flex container for cards */
 .Flex-Home4-bigs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;  /* Optimized gap for responsive layouts */
+    gap: 50px;
     margin-top: 30px;
     width: 100%;
     max-width: 1200px;
@@ -35,8 +36,8 @@
     background-color: #000713;
     border: 1px solid #1a5bff;
     box-shadow: 0 0 30px #1a5bff66;
-    width: 320px; /* Default width for the card */
-    height: 200px; /* Adjusted height for better look */
+    width: 320px;
+    height: 200px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 40px;
@@ -76,22 +77,22 @@
     margin-top: 10px;
 }
 
-/* Media Queries for Responsiveness */
+/* === Media Queries === */
 
-/* Mobile Devices (Portrait) */
+/* 📱 Mobile: 0 - 609px */
 @media (max-width: 609px) {
     .Home4 {
         padding: 30px 0;
     }
 
     .Flex-Home4-bigs {
-        gap: 20px; /* Smaller gap for small screens */
+        gap: 20px;
         margin-top: 20px;
     }
 
     .Home4-big {
-        width: 100%; /* Full-width cards on small screens */
-        height: 220px; /* Adjusted height */
+        width: 90%;
+        height: 180px;
         margin-top: 20px;
     }
 
@@ -108,46 +109,34 @@
     }
 }
 
-/* Tablets (Portrait and Landscape) */
-@media (max-width: 768px) {
-    .Home4 {
-        padding: 50px 15px;
-    }
-
-    .Flex-Home4-bigs {
-        gap: 30px; /* Adjust gap for tablet size */
-    }
-
+/* 💻 Cho‘zilgan Cardlar: 619px va undan katta */
+@media (min-width: 619px) {
     .Home4-big {
-        width: 280px; /* Slightly smaller cards for tablet size */
-        height: 200px;
+        width: 100%; /* Cardlar cho‘zilgan bo'ladi */
+        height: auto;
     }
 
     .Home4-cardss > h1 {
-        font-size: 21px;
+        font-size: 24px;
     }
 
     .Home4-cardss > p {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .Home4-cardss > h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
-/* Large Desktop */
+/* 🖥️ Desktop: 1024px+ */
 @media (min-width: 1024px) {
     .Home4 {
         padding: 80px 20px;
     }
 
-    .Flex-Home4-bigs {
-        gap: 50px;
-    }
-
     .Home4-big {
-        width: 320px; /* Slightly larger cards for desktop */
+        width: 320px; /* Katta ekranda yana default kartalar */
         height: 200px;
     }
 
