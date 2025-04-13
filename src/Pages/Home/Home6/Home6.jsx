@@ -48,7 +48,7 @@ function Home6() {
 
                 <div className="faq-item">
                     <button className={`faq-question ${open === 3 ? 'open' : ''}`} onClick={() => toggleAnswer(3)}>
-                        Могу ли я получить бесплатную консультацию?
+                        Могу ли я получить бесплатную <br /> консультацию?
                     </button>
                     {open === 3 && (
                         <div className="faq-answer open">
