@@ -1,9 +1,9 @@
 import React from "react";
-import './Home5.css';
+import './Project.css';
 
-function Home5() {
+function Project() {
     return (
-        <div className="Home5">
+        <div className="Project">
             <div className="home5-content">
                 <h2>Есть идея для проекта?</h2>
                 <button>Давайте обсудим</button>
@@ -12,4 +12,4 @@ function Home5() {
     );
 }
 
-export default Home5;
+export default Project;

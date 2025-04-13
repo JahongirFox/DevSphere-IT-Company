@@ -2,13 +2,13 @@
 .About2 {
     text-align: center;
     background-color: #000713;
-    padding: 40px 20px;
+    padding: 100px 20px;
     height: auto;
 }
 
 .title {
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 200;
     color: white;
     margin-bottom: 150px;
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,7 @@
 
 .card {
     background-color: #000713;
-    width: 330px;
+    width: 300px;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0 25px #1a5bff;
@@ -39,8 +39,8 @@
 }
 
 .card img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin: 0 auto 20px auto;
@@ -104,6 +104,12 @@
 }
 
 @media (max-width: 480px) {
+    .About2 {
+        text-align: center;
+        background-color: #000713;
+        padding: 50px 20px;
+        height: auto;
+    }
     .title {
         font-size: 27px;
     }
