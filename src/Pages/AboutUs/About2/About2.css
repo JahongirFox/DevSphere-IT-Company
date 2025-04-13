@@ -145,11 +145,11 @@
     }
 
     .card p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .card .position {
-        font-size: 14px;
+        font-size: 16px;
     }
     .team-cards {
         flex-direction: column;
