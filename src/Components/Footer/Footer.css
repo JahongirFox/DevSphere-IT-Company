@@ -1,14 +1,15 @@
+/* Footer umumiy stil */
 .footer {
     background-color: #000713;
     color: white;
-    padding: 80px 20px 30px;
+    padding: 100px 20px 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* O'rtaga joylashgan */
+    justify-content: space-between;
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -19,12 +20,9 @@
     text-decoration: none;
 }
 
-.footer-brand {
-    text-align: center; /* Brand bo'limini o'rtaga joylashtirish */
-}
-
+/* Footer Brand */
 .footer-brand h2 {
-    font-size: 32px;
+    font-size: 28px;
     color: #1a5bff;
     margin-bottom: 10px;
 }
@@ -34,16 +32,13 @@
     max-width: 300px;
     line-height: 25px;
     color: #ccc;
-    margin: 0 auto;
 }
 
-.footer-links {
-    text-align: center; /* Links bo'limini o'rtaga joylashtirish */
-}
-
-.footer-links h4 {
+/* Footer Links */
+.footer-links h4,
+.footer-contact h4 {
     color: #1a5bff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -53,45 +48,35 @@
 }
 
 .footer-links ul li {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 .footer-links ul li a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: 16px;
 }
 
 .footer-links ul li a:hover {
     color: #1a5bff;
 }
 
-.footer-contact {
-    text-align: center; /* Contact bo'limini o'rtaga joylashtirish */
-}
-
-.footer-contact h4 {
-    color: #1a5bff;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
+/* Footer Contact */
 .footer-contact p {
     margin: 15px 0;
     color: #ccc;
 }
 
+/* Social Icons */
 .footer-socials {
     margin-top: 15px;
     display: flex;
-    justify-content: center; /* Ikonkalarni o'rtaga joylashtirish */
     gap: 20px;
 }
 
 .footer-socials a {
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     transition: color 0.3s ease;
 }
 
@@ -99,6 +84,7 @@
     color: #1a5bff;
 }
 
+/* Footer Bottom */
 .footer-bottom {
     text-align: center;
     margin-top: 40px;
@@ -108,22 +94,27 @@
     padding-top: 20px;
 }
 
-/* Responsive Media Queries */
-
 /* Tablet and below (768px and below) */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
-        align-items: center; /* O'rtaga joylashgan */
+        align-items: center;
+        gap: 30px;
     }
-
+    .footer-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
     .footer-brand, .footer-links, .footer-contact {
         width: 100%;
-        text-align: center; /* O'rtaga joylashtirish */
+        text-align: center;
     }
 
     .footer-socials {
-        justify-content: center; /* Ikonkalarni o'rtaga joylashtirish */
+        justify-content: center;
     }
 
     .footer {
@@ -131,7 +122,7 @@
     }
 
     .footer-brand h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .footer-links h4,
@@ -140,7 +131,7 @@
     }
 
     .footer-links ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer-contact p {
@@ -148,11 +139,11 @@
     }
 
     .footer-socials a {
-        font-size: 22px; /* Icons kengaytirilgan */
+        font-size: 20px;
     }
 }
 
-/* Small screens (portrait mobile devices) */
+/* 480px va undan kichik ekranlar uchun */
 @media (max-width: 480px) {
     .footer {
         padding: 20px 10px 10px;
@@ -163,35 +154,7 @@
     }
 
     .footer-brand h2 {
-        font-size: 22px;
-    }
-
-    .footer-links ul li a {
-        font-size: 14px;
-    }
-
-    .footer-contact p {
-        font-size: 14px;
-    }
-
-    .footer-socials a {
         font-size: 20px;
-    }
-}
-
-/* Extra small screens (very small screens) */
-@media (max-width: 360px) {
-    .footer {
-        padding: 15px 10px;
-    }
-
-    .footer-brand h2 {
-        font-size: 20px;
-    }
-
-    .footer-links h4,
-    .footer-contact h4 {
-        font-size: 16px;
     }
 
     .footer-links ul li a {
@@ -204,5 +167,40 @@
 
     .footer-socials a {
         font-size: 18px;
+    }
+}
+
+/* 360px va undan kichik ekranlar uchun */
+@media (max-width: 360px) {
+    .footer {
+        padding: 15px 10px;
+    }
+
+    .footer-brand h2 {
+        font-size: 18px;
+    }
+
+    .footer-links h4,
+    .footer-contact h4 {
+        font-size: 16px;
+    }
+
+    .footer-links ul li a {
+        font-size: 10px;
+    }
+
+    .footer-contact p {
+        font-size: 10px;
+    }
+
+    .footer-socials a {
+        font-size: 16px;
+    }
+}
+
+/* 930px va undan kichik ekranlar uchun footer-links ni yashirish */
+@media (max-width: 930px) {
+    .footer-links {
+        display: none;
     }
 }
