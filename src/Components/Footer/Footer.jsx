@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaTelegramPlane, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -23,7 +23,6 @@ function Footer() {
 
                 <div className="footer-contact">
                     <h4>Контакты</h4>
-                    <p>Email: raxmatjonovjahongir5@gmail.com</p>
                     <p>Телефон: <a className="phone-link" href="tel:+998908257503">+998 90 825 75 03</a></p>
                     <p>Адрес: Ташкент, Узбекистан</p>
                     <div className="footer-socials">
@@ -35,6 +34,9 @@ function Footer() {
                         </a>
                         <a href="https://www.instagram.com/devsphere.coding/" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
+                        </a>
+                        <a href="mailto:raxmatjonovjahongir5@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <FaEnvelope />
                         </a>
                     </div>
                 </div>

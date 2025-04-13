@@ -115,6 +115,8 @@
 
     .footer-socials {
         justify-content: center;
+        gap: 35px;
+        margin-top: 30px;
     }
 
     .footer {
@@ -122,31 +124,26 @@
     }
 
     .footer-brand h2 {
-        font-size: 24px;
+        font-size: 27px;
     }
 
     .footer-links h4,
     .footer-contact h4 {
-        font-size: 18px;
+        font-size: 27px;
     }
-
-    .footer-links ul li a {
-        font-size: 14px;
-    }
-
     .footer-contact p {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .footer-socials a {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
 /* 480px va undan kichik ekranlar uchun */
 @media (max-width: 480px) {
     .footer {
-        padding: 20px 10px 10px;
+        padding: 50px 10px 10px;
     }
 
     .footer-container {
@@ -154,35 +151,45 @@
     }
 
     .footer-brand h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .footer-links ul li a {
         font-size: 12px;
+        
     }
 
     .footer-contact p {
-        font-size: 12px;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .footer-contact h4 {
+        /* font-size: 17px; */
+        margin-top: 20px;
     }
 
     .footer-socials a {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
 /* 360px va undan kichik ekranlar uchun */
 @media (max-width: 360px) {
     .footer {
-        padding: 15px 10px;
+        padding: 15px ;
+        padding-top: 50px;
     }
 
     .footer-brand h2 {
         font-size: 18px;
     }
+    .footer-brand p {
+        font-size: 16px;
+    }
 
     .footer-links h4,
     .footer-contact h4 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .footer-links ul li a {
@@ -190,11 +197,11 @@
     }
 
     .footer-contact p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .footer-socials a {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
