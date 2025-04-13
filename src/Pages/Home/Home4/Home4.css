@@ -15,7 +15,7 @@
     color: white;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: clamp(0px,6vw, 36px);
+    font-size: clamp(16px, 6vw, 36px); /* Dynamic font size for responsiveness */
 }
 
 /* Flex container for cards */
@@ -23,7 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;  /* Optimized gap for responsive layouts */
     margin-top: 30px;
     width: 100%;
     max-width: 1200px;
@@ -35,12 +35,13 @@
     background-color: #000713;
     border: 1px solid #1a5bff;
     box-shadow: 0 0 30px #1a5bff66;
-    width: 260px;
-    height: 120px;
+    width: 320px; /* Default width for the card */
+    height: 200px; /* Adjusted height for better look */
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 40px;
     flex-shrink: 0;
+    overflow: hidden;
 }
 
 .Home4-big:hover {
@@ -61,7 +62,7 @@
 
 .Home4-cardss > p {
     color: white;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
     margin-top: 10px;
@@ -70,7 +71,7 @@
 .Home4-cardss > h3 {
     color: white;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Montserrat, sans-serif;
     margin-top: 10px;
 }
@@ -84,13 +85,13 @@
     }
 
     .Flex-Home4-bigs {
-        gap: 15px;
+        gap: 20px; /* Smaller gap for small screens */
         margin-top: 20px;
     }
 
     .Home4-big {
-        width: 100%;
-        height: 200px;
+        width: 100%; /* Full-width cards on small screens */
+        height: 220px; /* Adjusted height */
         margin-top: 20px;
     }
 
@@ -99,7 +100,7 @@
     }
 
     .Home4-cardss > p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .Home4-cardss > h3 {
@@ -114,11 +115,11 @@
     }
 
     .Flex-Home4-bigs {
-        gap: 20px;
+        gap: 30px; /* Adjust gap for tablet size */
     }
 
     .Home4-big {
-        width: 280px;
+        width: 280px; /* Slightly smaller cards for tablet size */
         height: 200px;
     }
 
@@ -127,7 +128,7 @@
     }
 
     .Home4-cardss > p {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .Home4-cardss > h3 {
@@ -146,8 +147,8 @@
     }
 
     .Home4-big {
-        width: 300px;
-        height: 220px;
+        width: 320px; /* Slightly larger cards for desktop */
+        height: 200px;
     }
 
     .Home4-cardss > h1 {
