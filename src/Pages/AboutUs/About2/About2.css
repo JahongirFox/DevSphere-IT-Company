@@ -1,4 +1,5 @@
 /* About2.css */
+
 .About2 {
     text-align: center;
     background-color: #000713;
@@ -22,7 +23,9 @@
     flex-wrap: wrap;
     margin-top: 0px;
 }
-
+.card>a{
+    text-decoration: none;
+}
 .card {
     background-color: #000713;
     width: 300px;
@@ -34,7 +37,6 @@
 }
 
 .card:hover {
-    /* transform: translateY(-10px); */
     box-shadow: 0 0 35px #1a5bff;
 }
 
@@ -56,6 +58,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.card .position {
+    font-size: 18px;
+    color: #aabbee;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Responsive styles */
 @media (max-width: 992px) {
     .team-cards {
@@ -68,11 +78,20 @@
 
     .card {
         width: 260px;
-        padding: 18px;
+        padding: 20px;
+    }
+
+    .card img {
+        width: 180px;
+        height: 180px;
     }
 
     .card p {
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .card .position {
+        font-size: 16px;
     }
 }
 
@@ -80,38 +99,16 @@
     .team-cards {
         flex-direction: column;
         gap: 50px;
-        margin-top: -70px;
+        margin-top: -30px;
     }
 
     .title {
         font-size: 35px;
+        margin-bottom: 100px;
     }
 
     .card {
         width: 90%;
-    }
-
-    .card img {
-        width: 180px;
-        height: 180px;
-        margin-top: 10px;
-    }
-
-    .card p {
-        font-size: 25px;
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .About2 {
-        text-align: center;
-        background-color: #000713;
-        padding: 50px 20px;
-        height: auto;
-    }
-    .title {
-        font-size: 27px;
     }
 
     .card img {
@@ -121,5 +118,42 @@
 
     .card p {
         font-size: 20px;
+    }
+
+    .card .position {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .About2 {
+        padding: 50px 20px;
+    }
+
+    .title {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .card img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    .card .position {
+        font-size: 14px;
+    }
+    .team-cards {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
     }
 }
