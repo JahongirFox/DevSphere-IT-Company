@@ -13,8 +13,8 @@ function Main() {
             <Home2/>
             <Home3/>
             <Home4/>
-            <Home5/>
             <Home6/>
+            <Home5/>
         </>
     )
 }
