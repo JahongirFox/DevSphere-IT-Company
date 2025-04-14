@@ -1,21 +1,24 @@
 import React from "react";
 import './Home1.css';
 import img from '../../../assets/img.png';
-import { motion  } from "framer-motion";
+import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
 
 function Home1() {
+    const navigate = useNavigate(); // React Router hook
+
     const handleClick = () => {
         console.log("Связаться с нами кнопка нажата");
-        // bu yerda navigatsiya yoki scroll funksiyasini chaqirishing mumkin
+        navigate('/contactus'); // Navigate to contact page
     };
 
     return (
         <div className="Home">
             <div className="Flex-to-center">
                 <div className="Home-have-a-text-about-us">
-                        <div className="Home-have-a-text-about-us-img">
-                            <img width={500} src={img} alt="" />
-                        </div>
+                    <div className="Home-have-a-text-about-us-img">
+                        <img width={500} src={img} alt="DevSphere" />
+                    </div>
                     <div className="Text-and-btn">
                         <p>
                             <span>DevSphere</span> - это онлайн IT-компания,<br />
@@ -25,7 +28,6 @@ function Home1() {
                             довольных <br /> отзывов клиентов.
                         </p>
 
-                        {/* Animatsiyali Button */}
                         <motion.button
                             whileHover={{ scale: 1.05, boxShadow: "0px 0px 90px rgb(37, 106, 255)" }}
                             whileTap={{ scale: 0.95 }}
@@ -36,12 +38,12 @@ function Home1() {
                     </div>
 
                     <motion.button
-                            whileHover={{ scale: 1.05, boxShadow: "0px 0px 90px rgb(37, 106, 255)" }}
-                            whileTap={{ scale: 0.95 }}
-                            onClick={handleClick}
-                            className="animated-button2">
-                            Связаться с нами
-                        </motion.button>
+                        whileHover={{ scale: 1.05, boxShadow: "0px 0px 90px rgb(37, 106, 255)" }}
+                        whileTap={{ scale: 0.95 }}
+                        onClick={handleClick}
+                        className="animated-button2">
+                        Связаться с нами
+                    </motion.button>
                 </div>
             </div>
         </div>
