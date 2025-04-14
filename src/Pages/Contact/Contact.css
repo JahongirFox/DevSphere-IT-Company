@@ -23,7 +23,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 .contact-subtitle {
     font-size: 1.2rem;
     color: white;
@@ -167,3 +166,40 @@
     }
   }
   
+  .custom-alert {
+    width: 100%;
+    max-width: 800px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    animation: fadeIn 0.4s ease-in-out;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-alert.success {
+    background-color: #d1fae5; /* Light green */
+    color: #065f46; /* Dark green text */
+    border: 1px solid #10b981;
+    box-shadow: 0 0 12px #10b98150;
+  }
+  
+  .custom-alert.error {
+    background-color: #fee2e2; /* Light red */
+    color: #7f1d1d; /* Dark red text */
+    border: 1px solid #ef4444;
+    box-shadow: 0 0 12px #ef444450;
+  }
+  
+  /* Fade animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
