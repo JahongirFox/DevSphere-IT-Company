@@ -87,6 +87,7 @@
       }
     .contact-form{
         margin-top: 40px;
+        gap: 5px;
     }
     .contact-form input,
     .contact-form textarea {
