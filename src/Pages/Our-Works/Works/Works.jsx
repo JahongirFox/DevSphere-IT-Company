@@ -8,6 +8,7 @@ import skywing from '../../../assets/Our-Work-IMG/sky.jpg';
 import surf from '../../../assets/Our-Work-IMG/surfing.jpg';
 import weed from '../../../assets/Our-Work-IMG/weestep.jpg';
 import tom from '../../../assets/Our-Work-IMG/tom.jpg'
+import devmarket from '../../../assets/Our-Work-IMG/devmarket.png'
 
 function Works() {
     return (
@@ -98,15 +99,15 @@ function Works() {
                     </div>
                 </a>
 
-                {/* <a href="https://weestep-app.vercel.app/" target="_blank" rel="noopener noreferrer" className="Works-link">
+                <a href="https://devmarket.kz/" target="_blank" rel="noopener noreferrer" className="Works-link">
                     <div className="Works-cards">
-                        <img src={weed} alt="Weestep" />
+                        <img src={devmarket} alt="Weestep" />
                         <div className="Works-info">
-                            <p>Weestep</p>
+                            <p>DevMarket</p>
                             <button className="Works-button">Веб-сайт</button>
                         </div>
                     </div>
-                </a> */}
+                </a>
             </div>
         </div>
     );

@@ -12,7 +12,9 @@ function Navbar() {
         <nav>
             <div className="Flex-Two-Navbars" >
                 <div className="navbar-p">
-                    <a href="http://localhost:5173/">DevSphere</a>
+                    <ul>
+                        <li><Link to="/" className="nav-link">DevSphere</Link></li>
+                    </ul>
                 </div>
                 <div className="hamburger" onClick={toggleMenu}>
                     <span className={menuOpen ? "bar open" : "bar"}></span>
