@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h2 className="contact-title">Свяжитесь с нами</h2>
-
+      <p className="contact-subtitle">
+        Если у вас есть вопросы или предложения, заполните форму ниже — мы свяжемся с вами как можно скорее.
+      </p>
 
       <form className="contact-form">
         <input type="text" placeholder="Введите имя" required />
