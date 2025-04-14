@@ -2,10 +2,17 @@ import React from "react";
 import './Home2.css';
 import comand from '../../../assets/comand.png';
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 function Home2() {
+    const navigate = useNavigate(); // Initialize navigate
+
     const handleClick = () => {
+        // Log when button is clicked (optional)
         console.log("Связаться с нами кнопка нажата");
+
+        // Navigate to the About Us page
+        navigate('/aboutus');
     };
 
     return (
@@ -32,7 +39,6 @@ function Home2() {
                         </motion.button>
                     </div>  
                 </div>
-
 
                 <motion.button
                     whileHover={{ scale: 1.05, boxShadow: "0px 0px 90px rgb(37, 106, 255)" }}

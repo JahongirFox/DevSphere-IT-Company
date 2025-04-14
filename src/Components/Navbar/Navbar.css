@@ -8,7 +8,7 @@ nav {
     background-color: #000713;
     width: 100%;
     height: auto;
-    padding: 12px 20px;
+    padding: 20px 20px;
     position: relative; /* nav pozitsiyasi asos bo‘ladi */
     z-index: 10; /* nav ham oldinda turishi kerak */
 }
