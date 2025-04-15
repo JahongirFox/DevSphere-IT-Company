@@ -27,12 +27,12 @@
 }
 
 .Text-and-btn > p > span {
-    color: rgb(37, 106, 255);
+    color: #1a5bff;
 }
 
 .Home-have-a-text-about-us-img > img {
     border-radius: 50px;
-    box-shadow: 0px 0px 60px rgb(37, 106, 255);
+    box-shadow: 0px 0px 60px #1a5bff;
     width: 450px;
 }
 
@@ -52,7 +52,7 @@
 
 .animated-button2 {
     margin-top: 30px;
-    background: linear-gradient(135deg, #256aff, #06b6d4);
+    background: linear-gradient(135deg, #1a5bff, #06b6d4);
     color: white;
     padding: 18px 50px;
     font-size: 18px;
@@ -69,7 +69,7 @@
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #1e40af, #0891b2);
+    background: linear-gradient(135deg, #1a5bff, #0891b2);
 }
 
 @media (max-width: 1700px) {
@@ -96,7 +96,7 @@
 
     .Home-have-a-text-about-us-img > img {
         border-radius: 17%;
-        box-shadow: 0px 0px 60px rgba(37, 106, 255, 0.7);
+        box-shadow: 0px 0px 60px #1a5bff;
         width: 450px;
         max-width: 95%;
         margin-top: 50px;
@@ -119,7 +119,7 @@
         padding: 10px 40px;
         width: fit-content;
         text-align: center;
-        background: linear-gradient(135deg, #256aff, #06b6d4);
+        background: linear-gradient(135deg, #1a5bff, #06b6d4);
         color: white;
         border: none;
         border-radius: 14px;
@@ -130,7 +130,7 @@
     }
 
     .animated-button2:hover {
-        background: linear-gradient(135deg, #1e40af, #0891b2);
+        background: linear-gradient(135deg, #1a5bff, #0891b2);
     }
 }
 @media (max-width: 480px) {

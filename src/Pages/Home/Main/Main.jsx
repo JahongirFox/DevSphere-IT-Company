@@ -6,6 +6,7 @@ import Home4 from "../Home4/Home4";
 import Home6 from "../Home6/Home6";
 import Uslug from '../Uslug/Uslug'
 import Uslug2 from '../Uslug2/Uslug2'
+import Review from "../Review/Review";
 
 function Main() {
     return(
@@ -17,6 +18,7 @@ function Main() {
             <Home3/>
             <Home4/>
             <Home6/>
+            <Review/>
 
         </>
     )
