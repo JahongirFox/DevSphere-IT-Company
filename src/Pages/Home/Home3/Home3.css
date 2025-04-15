@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 640px) {
+    .process-section{
+        padding: 0px 20px;
+    }
     .process-title {
         font-size: 32px;
     }
