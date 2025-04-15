@@ -4,15 +4,18 @@ import Home2 from "../Home2/Home2";
 import Home3 from "../Home3/Home3";
 import Home4 from "../Home4/Home4";
 import Home6 from "../Home6/Home6";
+import Uslug from '../Uslug/Uslug'
 
 function Main() {
     return(
         <>
             <Home1/>
+            <Uslug/>
             <Home2/>
             <Home3/>
             <Home4/>
             <Home6/>
+
         </>
     )
 }

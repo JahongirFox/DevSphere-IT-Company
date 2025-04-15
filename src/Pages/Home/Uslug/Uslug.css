@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .uslug-section {
+    padding: 80px 25px;
+    background-color: #000713;
+  }
+  
+  .uslug-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .uslug-title {
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .highlight {
+    color: #2563eb;
+  }
+  
+  .uslug-subtitle {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 50px;
+  }
+  
+  .uslug-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 36px;
+}
+  
+  .uslug-card {
+    background-color: #000713;
+    padding: 32px;
+    border-radius: 20px;
+    border: 2px solid #1a5bff;
+    box-shadow: 0 6px 16px #1a5bff;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+  
+  .uslug-card:hover {
+    background-color: #000713;
+    transform: translateY(-6px);
+  }
+  
+  .uslug-icon {
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    color: #2563eb;
+  }
+  
+  .uslug-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a5bff;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 12px;
+  }
+  
+  .uslug-card-desc {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 640px) {
+    .uslug-title {
+      font-size: 30px;
+    }
+    .uslug-grid {
+        grid-template-columns: 1fr;
+      }
+    .uslug-subtitle {
+      font-size: 18px;
+    }
+  
+    .uslug-card {
+      padding: 24px;
+    }
+  
+    .uslug-card-title {
+      font-size: 20px;
+    }
+  
+    .uslug-card-desc {
+      font-size: 16px;
+    }
+  
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
