@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service-section {
+    background-color: #000713;
+    padding: 100px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1a5bff;
+    margin-bottom: 16px;
+}
+
+.service-subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.service-description {
+    font-size: 20px;
+    color: #d1d5db;
+    margin-bottom: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-block {
+    background-color: #000713;
+    border: 2px solid #1a5bff;
+    border-radius: 24px;
+    padding: 50px 40px;
+    box-shadow: 0 8px 24px #1a5bff;
+    text-align: left;
+}
+
+.block-title {
+    font-size: 36px;
+    color: #1a5bff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.block-desc {
+    font-size: 20px;
+    color: #d1d5db;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.price-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 36px;
+    margin-bottom: 40px;
+}
+
+.price-list li {
+    background-color: #000713;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #1a5bff;
+    box-shadow: 0 6px 18px #1a5bff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-list li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px #1a5bff;
+}
+
+.price-list h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a5bff;
+    margin-bottom: 10px;
+}
+
+.price-list span {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.price-list p {
+    font-size: 18px;
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
+.service-button {
+    display: inline-block;
+    background-color: #1a5bff;
+    color: white;
+    text-decoration: none;
+    padding: 16px 36px;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 auto; /* O'rtaga joylashtirish */
+    display: block;  /* Block element qilib o'zgartirish */
+}
+
+.service-button:hover {
+    background-color: #1748cc;
+}
+
+/* Responsive tweaks */
+/* Tabletlar uchun (768px gacha) */
+@media (max-width: 1024px) {
+    .service-title {
+        font-size: 40px;
+    }
+
+    .service-subtitle {
+        font-size: 22px;
+    }
+
+    .service-description {
+        font-size: 18px;
+    }
+
+    .block-title {
+        font-size: 30px;
+    }
+
+    .block-desc {
+        font-size: 18px;
+    }
+
+    .price-list h4 {
+        font-size: 22px;
+    }
+
+    .price-list span {
+        font-size: 18px;
+    }
+
+    .price-list p {
+        font-size: 16px;
+    }
+
+    .service-button {
+        padding: 14px 30px;
+        font-size: 17px;
+    }
+}
+
+/* Telefonlar uchun (640px gacha) */
+@media (max-width: 640px) {
+    .service-title {
+        font-size: 32px;
+    }
+
+    .service-subtitle {
+        font-size: 18px;
+    }
+
+    .service-description {
+        font-size: 16px;
+    }
+
+    .service-block {
+        padding: 30px 20px;
+    }
+
+    .block-title {
+        font-size: 24px;
+    }
+
+    .block-desc {
+        font-size: 16px;
+    }
+
+    .price-list {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .price-list li {
+        padding: 24px;
+    }
+
+    .price-list h4 {
+        font-size: 20px;
+    }
+
+    .price-list span {
+        font-size: 16px;
+    }
+
+    .price-list p {
+        font-size: 14px;
+    }
+
+    .service-button {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+}
+
+/* Kichik telefonlar (480px gacha) */
+@media (max-width: 480px) {
+    .service-title {
+        font-size: 28px;
+    }
+
+    .service-subtitle {
+        font-size: 16px;
+    }
+
+    .service-description {
+        font-size: 14px;
+    }
+
+    .block-title {
+        font-size: 20px;
+    }
+
+    .block-desc {
+        font-size: 14px;
+    }
+
+    .price-list h4 {
+        font-size: 18px;
+    }
+
+    .price-list span {
+        font-size: 15px;
+    }
+
+    .price-list p {
+        font-size: 13px;
+    }
+
+    .service-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

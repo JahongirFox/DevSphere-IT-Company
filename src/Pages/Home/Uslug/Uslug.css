@@ -5,7 +5,7 @@
   }
   
   .uslug-section {
-    padding: 80px 25px;
+    padding: 80px 20px;
     background-color: #000713;
   }
   
@@ -35,10 +35,10 @@
   }
   
   .uslug-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 36px;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+  }
   
   .uslug-card {
     background-color: #000713;
@@ -85,9 +85,9 @@
     .uslug-title {
       font-size: 30px;
     }
-    .uslug-grid {
-        grid-template-columns: 1fr;
-      }
+  .uslug-grid {
+    grid-template-columns: 1fr;
+  }
     .uslug-subtitle {
       font-size: 18px;
     }
