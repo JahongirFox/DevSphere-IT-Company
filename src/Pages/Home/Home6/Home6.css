@@ -111,6 +111,10 @@
 }
 
 @media (max-width: 480px) {
+    .Home6{
+    padding: 30px 20px;
+
+    }
     .faq-question {
         font-size: 14px;
         padding: 12px;

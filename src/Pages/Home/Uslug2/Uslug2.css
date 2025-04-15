@@ -257,4 +257,9 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+    .service-section {
+        background-color: #000713;
+        padding: 30px 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
 }

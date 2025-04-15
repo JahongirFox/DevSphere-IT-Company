@@ -122,6 +122,9 @@
 }
 
 @media (max-width: 640px) {
+    .home4-section{
+        padding:40px 20px;
+    }
     .home4-title {
         font-size: 32px;
     }
