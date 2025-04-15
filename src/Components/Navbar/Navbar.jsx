@@ -27,6 +27,7 @@ function Navbar() {
                             <li><Link to="/" className="nav-link">Главная</Link></li>
                             <li><Link to="/aboutus" className="nav-link">О нас</Link></li>
                             <li><Link to="/works" className="nav-link">Наша работы</Link></li>
+                            <li><Link to="/contactus" className="nav-link">Контакты</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Footer() {
                     <ul>
                         <li><Link to="/aboutus">О нас</Link></li>
                         <li><Link to="/works">Наши работы</Link></li>
-                        <li><Link to="/contact">Контакты</Link></li>
+                        <li><Link to="/contactus">Контакты</Link></li>
                     </ul>
                 </div>
 
