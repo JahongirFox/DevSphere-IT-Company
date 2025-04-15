@@ -11,7 +11,7 @@ function About2() {
             <p className="title">Наша команда</p>
             <div className="team-cards">
                 <div className="card">
-                    <a href="https://www.instagram.com/raxmatjonoww/">
+                    <a href="https://raxmatjonoww.vercel.app/">
                         <img src={Il} alt="Жахонгир Рахматжонов" />
                         <p>Жахонгир <br /> Рахматжонов</p>
                         <h4 className="position">Full-Stack Developer</h4>
@@ -19,7 +19,7 @@ function About2() {
                 </div>
 
                 <div className="card">
-                    <a href="https://www.instagram.com/the.dosik55/">
+                    <a href="https://thedosik55.vercel.app/">
                         <img src={eldos} alt="Елдос Ержанов" />
                         <p>Елдос <br /> Ержанов</p>
                         <h4 className="position">Full-Stack Developer</h4>
