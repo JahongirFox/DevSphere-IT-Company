@@ -1,5 +1,6 @@
 import React from "react";
 import './Uslug2.css'
+import { Link } from "react-router-dom";
 
 function Uslug2() {
   return (
@@ -45,7 +46,9 @@ function Uslug2() {
             </li>
           </ul>
 
-          <a href="#contact" className="service-button">Заказать веб-разработка</a>
+          <Link to="/contactus" className="service-button">
+            Заказать веб-разработка
+          </Link>
         </div>
       </div>
     </section>
