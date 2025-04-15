@@ -13,9 +13,6 @@ body {
   color: #fff;
   height: auto;
 }
-.hero-image{
-  display: none;
-}
 .hero-inner {
   display: flex;
   align-items: center;
@@ -95,16 +92,20 @@ p {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero-image{
+    display: none;
+  }
   .badge {
     display: inline-block;
-    background-color: #1f2937;
-    border: 1px solid #38bdf8;
+    background-color: #000713;
+    border: 1px solid #246BFD;
     padding: 10px 14px;
     border-radius: 9999px;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 25px;
     color: #38bdf8;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
   .hero {
     padding: 60px 20px;
@@ -119,7 +120,7 @@ p {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .hero-content {
@@ -128,5 +129,12 @@ p {
 
   .btn {
     margin: 0 auto;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+    max-width: 600px;
   }
 }
