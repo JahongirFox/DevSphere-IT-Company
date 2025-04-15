@@ -4,196 +4,94 @@
     box-sizing: border-box;
 }
 
-.Home3 {
-    width: 100%;
-    min-height: 100vh;
+.process-section {
     background-color: #000713;
-    padding: 180px 20px;
-    color: white;
+    padding: 100px 20px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.process-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
     text-align: center;
 }
 
-.Home3-title {
-    font-size: clamp(30px, 4vw, 40px);
-    font-weight: 300;
-    margin-bottom: 50px;
+.process-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1a5bff;
+    margin-bottom: 20px;
 }
 
-.Home3-Flex-the-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 100px;
-}
-
-.Home3-link {
-    text-decoration: none;
-}
-
-.Home3-cards {
-    width: 100%;
-    max-width: 400px;
-    background-color: #010d1f;
-    border-radius: 20px;
-    box-shadow: 0 0 40px #256aff;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.Home3-cards:hover {
-    box-shadow: 0 0 60px #1a5bff;
-}
-
-.Home3-cards img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 20px 20px 0 0;
-}
-
-/* Matn va Button yonma-yon joylashuvi */
-.Home3-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 18px 0;
-    flex-direction: row;
-}
-
-.Home3-info p {
-    font-size: 24px;
-    color: white;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.Home3-site-button {
-    background-color: #1a5bff;
-    box-shadow: 0 0 60px #1a5bff;
-    color: white;
-    font-size: 14px;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    transition: background-color 0.3s ease;
-}
-
-.Home3-site-button:hover {
-    background-color: #3a77ff;
-}
-
-/* Button section */
-.Link-Home3 {
-    margin-top: 50px;
-}
-
-.Home3-button {
-    color: white;
-    background: linear-gradient(135deg, #256aff, #06b6d4);
+.process-description {
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0px 0px 20px rgba(0, 191, 255, 0.3);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 55px;
+    color: #d1d5db;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Home3-button:hover {
-    background-color: #1a5bff;
-    transform: scale(1.1);
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-/* Responsive */
+.process-step {
+    background-color: #000713;
+    border: 2px solid #1a5bff;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 6px 18px #1a5bff;
+    text-align: left;
+}
+
+.step-title {
+    font-size: 28px;
+    color: #1a5bff;
+    margin-bottom: 16px;
+}
+
+.step-description {
+    font-size: 18px;
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
 @media (max-width: 1024px) {
-    .Home3-info p {
-        font-size: 20px;
+    .process-title {
+        font-size: 40px;
     }
 
-    .Home3-button {
+    .process-description {
         font-size: 18px;
-        padding: 10px 24px;
     }
 
-    .Home3-Flex-the-cards {
-        gap: 40px;
-    }
-}
-
-@media (max-width: 880px) {
-    .Home3-Flex-the-cards {
-        flex-direction: column;
-        align-items: center;
-        gap: 60px;
-        margin: 15px;
+    .step-title {
+        font-size: 24px;
     }
 
-    .Home3-title {
-        font-size: 28px;
-    }
-
-    .Home3-button {
-        font-size: 18px;
-        padding: 12px 26px;
-    }
-}
-
-@media (max-width: 600px) {
-    .Home3 {
-        padding: 120px 15px;
-    }
-
-    .Home3-cards {
-        max-width: 100%;
-        margin: 0 auto;
-        box-shadow: 0 0 30px #256aff;
-    }
-
-    .Home3-info {
-        gap: 20px;
-    }
-
-    .Home3-info p {
-        font-size: 20px;
-    }
-
-    .Home3-site-button {
-        font-size: 13px;
-        padding: 7px 12px;
-    }
-
-    .Home3-button {
-        font-size: 14px;
-        padding: 10px 20px;
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .Home3 {
-        padding: 100px 10px;
-    }
-
-    .Home3-cards {
-        width: 100%;
-        max-width: 350px;
-        box-shadow: 0 0 30px #256aff;
-    }
-
-    .Home3-title {
-        font-size: 25px;
-        margin-bottom: 50px;
-    }
-
-    .Home3-button {
+    .step-description {
         font-size: 16px;
-        padding: 10px 22px;
+    }
+}
+
+@media (max-width: 640px) {
+    .process-title {
+        font-size: 32px;
+    }
+
+    .process-description {
+        font-size: 16px;
+    }
+
+    .step-title {
+        font-size: 20px;
+    }
+
+    .step-description {
+        font-size: 14px;
     }
 }

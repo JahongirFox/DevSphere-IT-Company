@@ -1,154 +1,144 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* === Base Styles === */
-.Home4 {
+.home4-section {
     background-color: #000713;
-    width: 100%;
-    height: auto;
     padding: 60px 20px;
-}
-
-.Home4 > p {
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    font-size: clamp(20px, 6vw, 36px);
 }
 
-.Flex-Home4-bigs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px;
-    width: 100%;
-    max-width: 1200px;
+.home4-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home4-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1a5bff;
+    margin-bottom: 20px;
+}
+
+.home4-description {
+    font-size: 20px;
+    color: #d1d5db;
+    margin-bottom: 40px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.Home4-big {
+.home4-card {
     background-color: #000713;
-    border: 1px solid #1a5bff;
-    box-shadow: 0 0 30px #1a5bff66;
-    width: 320px;
-    height: 200px;
-    border-radius: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 40px;
-    flex-shrink: 0;
-    overflow: hidden;
-}
-
-.Home4-big:hover {
-    box-shadow: 0 0 40px #1a5bffcc;
-}
-
-.Home4-cardss {
+    color: white;
     padding: 30px;
-    text-align: left;
-    line-height: 1.5;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    border: 2px solid #1a5bff;
+    box-shadow: 0 4px 12px #1a5bff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
-.Home4-cardss > h1 {
-    color: #376fff;
-    font-size: 22px;
-    font-family: Montserrat, sans-serif;
+.home4-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(26, 91, 255, 0.3);
 }
 
-.Home4-cardss > p {
+.home4-card-title {
+    font-size: 24px;
+    font-weight: 700;
     color: white;
-    font-size: 25px;
-    font-weight: 600;
-    font-family: Montserrat, sans-serif;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.Home4-cardss > h3 {
+.home4-toggle-btn {
+    font-size: 24px;
+    font-weight: bold;
     color: white;
-    font-weight: 400;
-    font-size: 18px;
-    font-family: Montserrat, sans-serif;
-    margin-top: 10px;
 }
 
-/* === Media Queries === */
+.home4-card-description {
+    font-size: 16px;
+    color: #d1d5db;
+    line-height: 1.6;
+    max-height: 0; /* Initially hide content */
+    opacity: 0;    /* Initially hide content */
+    overflow: hidden; /* Hide overflow */
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
 
-/* 📱 Mobile: 0 - 609px */
-@media (max-width: 609px) {
-    .Home4 {
-        padding: 30px 0;
+.home4-card.show-description .home4-card-description {
+    max-height: 500px;  /* Enough height to fit the content */
+    opacity: 1;
+}
+
+/* For values list */
+.home4-values-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 16px;
+    color: #d1d5db;
+    max-height: 0; /* Initially hide the list */
+    overflow: hidden;
+    opacity: 0;    /* Initially hide content */
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.home4-card.show-description .home4-values-list {
+    max-height: 200px;  /* Adjust this value based on list size */
+    opacity: 1;
+}
+
+/* Responsive styles for devices */
+@media (max-width: 1024px) {
+    .home4-title {
+        font-size: 40px;
     }
 
-    .Flex-Home4-bigs {
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .Home4-big {
-        width: 90%;
-        height: 180px;
-        margin-top: 20px;
-    }
-
-    .Home4-cardss > h1 {
-        font-size: 20px;
-    }
-
-    .Home4-cardss > p {
+    .home4-description {
         font-size: 18px;
     }
 
-    .Home4-cardss > h3 {
+    .home4-card-title {
+        font-size: 22px;
+    }
+
+    .home4-card-description {
+        font-size: 15px;
+    }
+
+    .home4-values-list {
         font-size: 14px;
     }
 }
 
-/* 💻 Cho‘zilgan Cardlar: 619px va undan katta */
-@media (min-width: 619px) {
-    .Home4-big {
-        width: 100%; /* Cardlar cho‘zilgan bo'ladi */
-        height: auto;
+@media (max-width: 640px) {
+    .home4-title {
+        font-size: 32px;
     }
 
-    .Home4-cardss > h1 {
-        font-size: 24px;
-    }
-
-    .Home4-cardss > p {
-        font-size: 26px;
-    }
-
-    .Home4-cardss > h3 {
-        font-size: 18px;
-    }
-}
-
-/* 🖥️ Desktop: 1024px+ */
-@media (min-width: 1024px) {
-    .Home4 {
-        padding: 80px 20px;
-    }
-
-    .Home4-big {
-        width: 320px; /* Katta ekranda yana default kartalar */
-        height: 200px;
-    }
-
-    .Home4-cardss > h1 {
-        font-size: 25px;
-    }
-
-    .Home4-cardss > p {
-        font-size: 22px;
-    }
-
-    .Home4-cardss > h3 {
+    .home4-description {
         font-size: 16px;
+    }
+
+    .home4-card-title {
+        font-size: 20px;
+    }
+
+    .home4-card-description {
+        font-size: 14px;
+    }
+
+    .home4-values-list {
+        font-size: 14px;
     }
 }
